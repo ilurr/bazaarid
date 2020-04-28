@@ -1,0 +1,19 @@
+{{#forEach video}}
+{{#unlessLteq index ../index_start}}
+{{#unlessGt index ../index_end}}
+<div class="feed-item col-flex">
+	<div class="feed-asset">
+		<a href="{{link}}" class="feed-link">
+			<span class="icon icon-play"></span>
+			<div class="feed-asset-yt" style="background-image: url('{{img}}')"></div>
+		</a>
+	</div>
+	<div class="feed-box">
+		<h3 class="feed-title"><a href="{{link}}" class="feed-link">{{title}}</a></h3>
+		<p class="feed-lead">{{lead}}</p>
+		<span class="feed-author">by: <a href="indeks-author.html">{{author}}</a></span>
+	</div>
+</div>
+{{/unlessGt}}
+{{/unlessLteq}}
+{{/forEach}}

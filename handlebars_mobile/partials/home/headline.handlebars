@@ -1,0 +1,18 @@
+<div class="cover-wrap js-cover">
+	{{#forEach latest}}
+	{{#unlessLteq index ../index_start}}
+	{{#unlessGt index ../index_end}}
+	<div class="cover-item">
+		<a href="{{link}}" class="cover-link">
+			<div class="cover-asset">
+				<img src="https://asset.kompas.com/crop/0x0:0x0/700x1050/data/photo/{{img}}" alt="">
+			</div>
+			<div class="cover-info">
+				<h2 class="cover-title">{{title}}</h2>
+			</div>
+		</a>
+	</div>
+	{{/unlessGt}}
+	{{/unlessLteq}}
+	{{/forEach}}
+</div>

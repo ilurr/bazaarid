@@ -1,0 +1,127 @@
+.nav {
+	position: relative;
+	&.-bar {
+		display: none;
+	}
+	&-button {
+		vertical-align: middle;
+		display: inline-block;
+		width: 25px;
+		height: 25px;
+		&.-search {
+			.icon {
+				color: $color_theme;
+				font-size: 25px;
+			}
+		}
+	}
+	&-wrap {
+		position: relative;
+	}
+	&-item {
+		position: relative;
+	}
+	&-link {
+		display: block;
+		position: relative;
+		text-transform: uppercase;
+		padding: 10px 12px;
+		@include font-pack($font_secondary, 18px, false, false, #000);
+		&.-active {
+			//color: #000;
+			&:after {
+				content: '';
+				position: absolute;
+				width: calc(100% - 24px);
+				left: 12px;
+				bottom: 5px;
+				z-index: 1;
+				border-top: 2px solid $color_theme;
+			}
+		}
+	}
+	&-follow {
+		position: relative;
+		padding: 0 10px;
+		display: none;
+	}
+	&-submenu {
+		position: relative;
+		padding: 5px 0 10px;
+	}
+	&-arrow {
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 1;
+		width: 60px;
+		height: 45px;
+		span {
+			position: relative;
+			display: block;
+			width: 45px;
+			margin: 0 auto;
+			height: 100%;
+			border-left: 5px solid #fff;
+			border-bottom: 5px solid #fff;
+			@include transition(all .2s .2s ease);
+			@include transform(translateY(-3px) scale(.25) rotate(-45deg));
+		}
+		&.-active {
+			span {
+				@include transform(translateY(3px) scale(.25) rotate(135deg));
+			}
+		}
+	}
+
+	// nav panel 
+	&.-panel {
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		left: 0;
+		top: 0;
+		visibility: hidden;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+		z-index: 10;
+		background: #707070;
+		padding: 80px 0;
+		//border-right: 1px inset #ccc;
+		@include transition(all .2s ease);
+		@include transform(translateX(-100vw));
+		@include min-responsive($screen-tablet) {
+			width: 300px;
+			@include transform(translateX(-300px));
+		}
+		.nav-button.-menu {
+			position: absolute;
+			top: 30px;
+			left: 20px;
+		}
+		.nav-item {
+			height: 45px;
+			overflow: hidden;
+			@include transition(all .2s ease);
+			&:hover {
+				background: darken(#707070, 5%);
+			}
+		}
+		.nav-link {
+			//font-size: 20px;
+			color: #fff;
+			padding: 11px 20px;
+			&.-sub {
+				text-transform: inherit;
+				padding: 5px 20px 5px 40px;
+				&:hover {
+					background: darken(#707070, 8%);
+				}
+			}
+		}
+		.icon-bar i::before, 
+		.icon-bar i::after {
+			background: #fff;
+		}
+	}
+}

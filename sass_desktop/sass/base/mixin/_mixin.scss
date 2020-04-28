@@ -1,0 +1,89 @@
+// default transisi
+@mixin transition($arg) {
+	-webkit-transition: $arg;
+	-moz-transition: $arg;
+	-ms-transition: $arg;
+	-o-transition: $arg;
+	transition: $arg;
+}
+@mixin animation($arg) {
+	-webkit-animation: $arg;
+	-moz-animation: $arg;
+	-ms-animation: $arg;
+	-o-animation: $arg;
+	animation: $arg;
+}
+// border radius
+@mixin border-radius($x) {
+	-webkit-border-radius: $x;
+	-moz-border-radius: $x;
+	-ms-border-radius: $x;
+	-o-border-radius: $x;
+	border-radius: $x;
+}
+// skala
+@mixin transform($x) {	
+	-ms-transform: $x; /* IE 9 */
+	-webkit-transform: $x; /* Safari */
+	transform: $x;
+}
+@mixin transform-scale($x) {
+	-ms-transform: scale($x); /* IE 9 */
+	-webkit-transform: scale($x); /* Safari */
+	transform: scale($x);
+}
+// reset style ul
+@mixin reset-ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+// 100%
+@mixin display-full {
+	width: 100%;
+	height: 100%;
+}
+// flexbox 
+@mixin display-flex {
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+}
+// untuk overflow judul pada list berita
+@mixin title-overflow($height, $max-height) {
+	height: $height;
+	max-height: $max-height;
+	overflow: hidden;
+}
+// media
+@mixin max-responsive ($media) {
+	@media (max-width: $media) { @content; }
+}
+@mixin min-responsive ($media) {
+	@media (min-width: $media) { @content; }
+}
+@mixin range-responsive ($media, $media2) {
+	@media (min-width: $media) and (max-width: $media2) { @content; }
+}
+// placeholder
+@mixin input-placeholder {
+	&.placeholder { @content; }
+	&:-moz-placeholder { @content; }
+	&::-moz-placeholder { @content; }
+	&:-ms-input-placeholder { @content; }
+	&::-webkit-input-placeholder { @content; }
+}
+// font template
+@mixin font-pack($family: false, $size: false, $weight: false,  $lh: false, $colour: false) {
+    @if $family { font-family: $family; }
+    @if $size { font-size: $size; }
+    @if $weight { font-weight: $weight; }
+    @if $lh { line-height: $lh; }
+    @if $colour { color: $colour; }
+}
+// filter
+@mixin filter($x) {
+	-webkit-filter: $x;
+	filter: $x;
+}

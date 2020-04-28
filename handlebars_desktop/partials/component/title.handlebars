@@ -1,0 +1,16 @@
+{{#eq type compare='feed'}}
+{{#eq feed compare='center'}}
+<h2 class="heading-feed -center"><span>{{content}}</span></h2>
+{{else}}
+<h2 class="heading-feed"><span>{{content}}</span></h2>
+{{/eq}}
+{{/eq}}
+{{#eq type compare='next'}}
+<h2 class="heading-next"><span>{{content}}</span></h2>
+{{/eq}}
+{{#eq type compare='small'}}
+<h2 class="heading-small"><span>{{content}}</span></h2>
+{{/eq}}
+{{#eq type compare='more'}}
+<h2 class="heading-more"><span>More From</span>{{content}}</h2>
+{{/eq}}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+
+	<!-- navpanel -->
+	{{> navpanel}}
+
+	<!-- searchpanel -->
+	{{> searchpanel}}
+
+	<!-- header -->
+	{{> header}}
+		
+	<!-- root -->
+	<div class="root">
+
+		<!-- ads top -->
+		{{> ads_top}}
+
+		<div class="col-fluid">
+			<div class="container clearfix">
+
+				{{#withFirst read.beauty}}
+				<!-- content -->
+				{{> read_header}}
+				{{> read_content}}
+				{{/withFirst}}
+
+			</div>
+		</div>
+		<div class="col-fluid">
+			<div class="container clearfix">
+
+				{{> title type='next' content="Read Next"}}
+				<section class="feed feed-4 -more col-flex">
+					{{> more index_start=0 index_end=4}}
+				</section>
+
+				{{> ads_square}}
+
+				{{> title type='more' content="Fashion"}}
+				<section class="feed feed-4 col-flex">
+					{{> more index_start=4 index_end=12}}
+				</section>
+
+			</div>
+		</div>
+		
+		<!-- footer -->
+		{{> footer}}
+		
+	</div>
+
+	<!-- ads horizontal -->
+	{{> ads_horizontal}}
+
+	{{> js}}
+	
+</body>
+</html>

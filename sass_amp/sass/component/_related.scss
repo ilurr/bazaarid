@@ -1,0 +1,35 @@
+.related {
+	position: relative;
+	background: #f1f1f1;
+	padding: 1.750rem $grid-gutter-width-edge;
+	margin-right: -$grid-gutter-width-edge;
+	margin-left: -$grid-gutter-width-edge;	
+	&-wrap {
+		position: relative;
+		align-items: center;
+		margin-bottom: 10px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	&-subtitle {
+		padding: 0;
+		margin: 0 0 10px;
+		text-transform: uppercase;
+		@include font-pack($font_secondary, 20px, false, false, #2b2b2b);
+		border-bottom: 1px solid $color_theme;
+	}
+	&-img {
+		width: 90px;
+	}
+	&-title {
+		padding: 0 15px;
+		margin: 0;
+		width: calc(100% - 90px);
+		@include title_overflow(auto, 6.818rem);
+		@include font-pack($font_body, 1.455rem, false, false, false);
+	}
+	&-link {
+		display: block;
+	}
+}

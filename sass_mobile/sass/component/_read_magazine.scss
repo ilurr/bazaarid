@@ -1,0 +1,30 @@
+// .magazine {
+// 	&-body {
+// 		@extend .content-body;
+// 	}
+// }
+
+.container-magazine {
+	.ads-belt {
+		margin-left: calc(-50vw + 50%);
+		margin-right: calc(-50vw + 50%);
+	}
+	.content-header {
+		padding: 0 25px;
+		text-align: center;
+		margin-left: calc(-50vw + 50%);
+		margin-right: calc(-50vw + 50%);
+	}
+	.content-info {
+		justify-content: center;
+	}
+	.content-author {
+		flex-grow: 0;
+		width: auto;
+	}
+	blockquote {
+		margin-top: 1.25em;
+		margin-bottom: 1.25em;
+		padding: 1.579em 0;
+	}
+}

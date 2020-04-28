@@ -1,0 +1,26 @@
+.paging {
+	position: relative;
+	margin: 25px 0;
+	&-wrap {
+		position: relative;
+		align-items: center;
+		justify-content: center;
+	}
+	&-link {
+		display: block;
+		text-align: center;
+		padding: 10px 16px;
+		margin: 0 2px;
+		border: 1px solid #ececec;
+		border-radius: 24px;
+		background: #fff;
+		@include font-pack($font_secondary, 16px, 400, false, $color_theme);
+		&:hover {
+			background: #ececec;
+		}
+		&.-active {
+			color: #fff;
+			background: $color_theme;
+		}
+	}
+}

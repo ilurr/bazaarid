@@ -1,0 +1,40 @@
+.button {
+	position: relative;
+	&-more {
+		position: relative;
+		margin: 1.563rem 0;
+		padding: 1rem 0;
+		display: block;
+		text-align: center;
+		background: #F1F1F1;
+		text-transform: uppercase;
+		@include font-pack($font_secondary, 1rem, false, false, #707070);
+		&:hover {
+			color: #fff;
+			background: #707070;
+		}
+		// @include min-responsive($screen-tablet) {
+		// 	font-size: 24px;
+		// }
+		// @include min-responsive($screen-desktop) {
+		// 	font-size: 28px;
+		// }
+		&.-bold {
+			font-weight: 800;
+		}
+	}
+	&-primary {
+		display: inline-block;
+		background: #2a2a2a;
+		border: 1px solid #2a2a2a;
+		text-transform: uppercase;
+		padding: 8px 10px;
+		@include font-pack($font_secondary, 14px, false, false, #fff);
+		&:focus,
+		&:hover {
+			color: #fff;
+			background: $color_theme;
+			border: 1px solid $color_theme;
+		}
+	}
+}

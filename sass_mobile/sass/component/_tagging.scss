@@ -1,0 +1,26 @@
+.tag {
+	position: relative;
+	flex-wrap: wrap;
+	margin: 0 -4px;
+	// @include min-responsive($screen-tablet) {
+	// }
+	&-item {
+		display: inline-block;
+		padding: 0 4px 8px;
+	}
+	&-subtitle {
+		@include font-pack($font_secondary, 16px, 700, false, false);
+		display: block;
+		padding: 10px 0;
+	}
+	&-link {
+		display: block;
+		padding: 10px 15px;
+		background: #f1f1f1;
+		@include font-pack($font_secondary, 16px, false, false, #2b2b2b);
+		&:hover {
+			color: #000;
+			background: darken(#f1f1f1, 5%);
+		}
+	}
+}

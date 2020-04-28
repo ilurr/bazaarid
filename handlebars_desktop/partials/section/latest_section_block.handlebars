@@ -1,0 +1,23 @@
+{{#forEach latest}}
+{{#unlessLteq index ../index_start}}
+{{#unlessGt index ../index_end}}
+<div class="feed-item -block">
+	<div class="feed-asset">
+		<a href="{{link}}" class="feed-link">
+			<img src="https://asset.kompas.com/crop/0x0:0x0/840x420/data/photo/{{img}}" alt="{{title}}">
+		</a>
+	</div>
+	<div class="feed-box">
+		<h3 class="feed-title"><a href="{{link}}" class="feed-link">{{title}}</a></h3>
+		<p class="feed-lead">{{lead}}</p>
+		<div class="feed-box-author col-flex">
+			<div class="feed-author-img">
+				<img src="{{author_img}}" alt="{{author}}">
+			</div>
+			<span class="feed-author">by: <a href="indeks-author.html">{{author}}</a></span>
+		</div>
+	</div>
+</div>
+{{/unlessGt}}
+{{/unlessLteq}}
+{{/forEach}}

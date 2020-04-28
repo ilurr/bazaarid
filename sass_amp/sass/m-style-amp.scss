@@ -1,0 +1,125 @@
+
+// base sass, mixin + variable
+@import 'base/vars';
+@import 'base/mixin/mixin';
+@import 'base/mixin/grid';
+@import 'base/mixin/grid-framework';
+
+// global
+@import 'layout/global';
+// @import 'layout/grid_bootstrap';
+@import 'layout/grid';
+@import 'layout/header';
+//@import 'layout/404';
+
+// module
+@import 'base/fonts';
+@import 'module/icon'; 
+//@import 'module/form';
+@import 'module/button';
+//@import 'module/animate';
+@import 'module/bg';
+
+// component all
+@import 'component/social';
+@import 'component/nav';
+//@import 'component/search';
+
+// component home
+//@import 'component/headline';
+@import 'component/feed';
+//@import 'component/highlight';
+
+// component section
+//@import 'component/section';
+//@import 'component/author';
+//@import 'component/paging';
+@import 'component/embed';
+
+// component read
+@import 'component/media';
+@import 'component/title';
+//@import 'component/breadcrumb';
+@import 'component/read';
+@import 'component/read_listing';
+@import 'component/read_magazine';
+@import 'component/tagging';
+@import 'component/related';
+
+// plugin
+// @import 'plugin/slick';
+// @import 'plugin/slick-theme';
+// @import 'plugin/slick-custom';
+// @import 'plugin/magnificpopup';
+
+// ads
+//@import 'ads/ads';
+
+// footer
+@import 'layout/footer';
+
+// override
+@import 'module/override';
+
+
+// for amp
+.feed-asset {
+	width: 100%;
+    height: auto;
+    padding-bottom: 100%;
+}
+.related-img {
+	position: relative;
+	width: 120px;
+	height: 62px;
+}
+.photo-img {
+	width: 100%;
+	height: auto;
+	padding-bottom: 100%;
+	//background: #f5f5f5;
+}
+.photo-img amp-img img{
+	object-fit:contain
+}
+.content-social .social-link {
+	padding: 9px;
+}
+.content-social .social-item {
+	padding: 0 2px;
+}
+.content-photo-main .photo-img {
+	padding-bottom: 60%;
+}
+.social-link.-facebook {
+	background: #32529f;
+}
+.social-link.-twitter {
+	background: #39a2f2;
+}
+.social-link.-whatsapp {
+	background: #62d467;
+}
+.social-link.-line {
+	background: #53b448;
+}
+.social-link.-linkedin {
+	background: #0077b5;
+}
+.nav.-panel {
+	top: 60px;
+	padding: 0;
+}
+.header-holder {
+	padding-top: 60px;
+}
+.logo {
+	height: 35px;
+}
+.content-related {
+	margin-bottom: 0;
+}
+.related {
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,83 @@
+.photo {
+	position: relative;
+	&-img {
+		position: relative;
+	}
+	&-credit {
+		@include font-pack($font_secondary, 12px, false, false, #414141);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		z-index: 1;
+		padding: 5px 10px;
+		background: rgba(#fff, .75);
+	}
+	&-main {
+		position: relative;
+		margin-bottom: 25px;
+		img {
+			width: 100%;
+		}
+	}
+	&-body {
+		text-align: center;
+		&.-large {
+			img {
+				width: 100%;
+			}
+		}
+		&.-full {
+			margin-left: calc(-50vw + 50%);
+			margin-right: calc(-50vw + 50%);	
+			img {
+				width: 100%;
+			}
+		}
+		&.-small {
+			@include min-responsive($screen-tablet) {
+				width: 400px;
+				float: left;
+				margin-right: 20px;
+			}
+		}
+		&.-magazine {
+			margin-bottom: 20px;
+			@include min-responsive($screen-tablet) {
+				margin-left: 20px;
+				width: 300px;
+				float: right;
+			}
+			@include min-responsive($screen-desktop) {
+				margin-right: -55px;
+			}
+		}
+	}
+}
+
+.video {
+	@extend .photo;
+	&-main ,
+	&-body {
+		position: relative;
+		width: 100%;
+		height: auto;
+		padding-bottom: 56.25%;
+		margin: 0 auto;
+		text-align: center;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		video,
+		iframe {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			z-index: 1;
+		}
+	}
+	&-main {
+		margin-bottom: 25px;
+	}
+}

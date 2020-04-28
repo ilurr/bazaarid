@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+
+	<!-- navpanel -->
+	{{> navpanel}}
+
+	<!-- searchpanel -->
+	{{> searchpanel}}
+
+	<!-- header -->
+	{{> header menu_title='Fashion'}}
+		
+	<!-- root -->
+	<div class="root">
+		
+		<!-- section -->
+		{{> section title='Fashion'}}
+
+		<!-- ads top -->
+		{{> ads_top}}
+
+		<div class="col-fluid">
+			<div class="container clearfix">
+
+				<!-- haeadline section -->
+				<section class="feed feed-section-hl col-flex">
+					{{> headline_section index_start=1 index_end=4}}
+				</section>
+				
+				{{> ads_square}}
+
+				<!-- latest -->
+				<section class="feed feed-section col-flex">
+					{{> latest_section index_start=4 index_end=8}}
+				</section>
+
+				{{> ads_square}}
+
+				<!-- latest -->
+				<section class="feed feed-section col-flex">
+					{{> latest_section index_start=8 index_end=12}}
+				</section>
+
+				<a href="indeks-artikel.html" class="button-more"><span>More Articles</span></a>
+
+			</div>
+		</div>
+		
+		<!-- footer -->
+		{{> footer}}
+		
+	</div>
+
+	<!-- ads horizontal -->
+	{{> ads_horizontal}}
+
+	{{> js}}
+	
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+
+	<!-- navpanel -->
+	{{> navpanel}}
+
+	<!-- searchpanel -->
+	{{> searchpanel}}
+
+	<!-- header -->
+	{{> header}}
+		
+	<!-- root -->
+	<div class="root">
+		
+		<div class="col-fluid">
+			<div class="container clearfix">
+
+				<!-- cover story -->
+				<section class="cover">
+					{{> headline index_start=0 index_end=5}}
+				</section>
+
+				<!-- ads top -->
+				{{> ads_top}}
+
+				<!-- highlight -->
+				<section class="feed feed-1 -highlight">
+					{{> latest_highlight author=true channel=latest.[4]}}
+				</section>
+
+				<!-- fashion -->
+				{{> title type='feed' content="Fashion"}}
+				<section class="feed feed-list col-flex">
+					{{> latest_list index_start=3 index_end=7}}
+				</section>
+
+				{{> ads_square}}
+
+				<!-- beauty -->
+				{{> title type='feed' content="Beauty"}}
+				<section class="feed feed-list col-flex">
+					{{> latest_list index_start=8 index_end=12}}
+				</section>
+				
+				<!-- streaming -->
+				{{> title type='feed' feed='center' content="Livestream"}}
+				<section class="feed feed-1 -streaming">
+					{{> video_big channel=video.[9]}}
+				</section>
+
+				<!-- video -->
+				{{> title type='feed' feed='center' content="Bazaar Video"}}
+				<section class="feed -video col-flex">
+					{{> video_channel index_start=0 index_end=3}}
+					<a href="video.html" class="feed-button-more">See More</a>
+				</section>
+
+				<!-- opinion -->
+				{{> title type='feed' content="Facts & Opinion"}}
+				<section class="feed feed-list col-flex">
+					{{> latest_list index_start=8 index_end=12}}
+				</section>
+
+				{{> ads_square}}
+
+				<!-- all about man -->
+				{{> title type='feed' content="All About Man"}}
+				<section class="feed feed-list col-flex">
+					{{> latest_list index_start=0 index_end=4}}
+				</section>
+
+				<!-- people -->
+				{{> title type='feed' content="People"}}
+				<section class="feed feed-list col-flex">
+					{{> latest_list index_start=8 index_end=12}}
+				</section>
+
+				<!-- culture -->
+				{{> title type='feed' content="Culture"}}
+				<section class="feed feed-list col-flex">
+					{{> latest_list index_start=4 index_end=8}}
+				</section>
+
+				<!-- event -->
+				{{> title type='feed' content="Promo/Event"}}
+				<section class="feed feed-4 col-flex">
+					{{> latest index_start=0 index_end=4}}
+				</section>
+
+				<!-- latest -->
+				{{> title type='feed' content="Latest"}}
+				<section class="feed feed-4 col-flex">
+					{{> latest index_start=4 index_end=12}}
+				</section>
+
+				<a href="#" class="button-more"><span>More Articles</span></a>
+			</div>
+		</div>
+		
+		<!-- footer -->
+		{{> footer}}
+		
+	</div>
+
+	<!-- ads horizontal -->
+	{{> ads_horizontal}}
+
+	{{> js}}
+	
+</body>
+</html>

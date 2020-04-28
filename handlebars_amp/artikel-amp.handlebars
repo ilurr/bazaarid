@@ -1,0 +1,256 @@
+<!doctype html>
+<html ⚡ lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<meta name="description" content="This is the AMP Boilerplate.">
+		<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+		<link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
+		<script async src="https://cdn.ampproject.org/v0.js"></script>
+		<!-- Import other AMP Extensions here -->
+
+		<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+		<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+		<script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+		<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+
+		<style amp-custom></style>
+		<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+		<link rel="canonical" href=".">
+
+		<title>Harper's Bazaar Indonesia: Fashion, Beauty & Lifestyle</title>
+	</head>
+	
+	<body>
+
+		<!-- navpanel -->
+		<nav class="nav -panel" id="nav-menu">
+			<ul class="nav-wrap">
+				{{#each menu}}
+				<li class="nav-item">
+					<a href="{{link}}" class="nav-link">{{title}}</a>
+					{{#if submenu}}
+					<a href="#" class="nav-arrow js-arrow"><span></span></a>
+					<ul class="nav-submenu">
+						{{#each submenu}}
+						<li class="nav-subitem"><a href="{{link}}" class="nav-link{{#eq title compare=../menu_title}} -active{{/eq}} -sub">{{title}}</a></li>
+						{{/each}}
+					</ul>
+					{{/if}}
+				</li>
+				{{/each}}
+			</ul>
+		</nav>
+
+		<!-- header -->
+		<header class="header -fixed">
+			<div class="header-bar">
+				<div class="header-wrap container col-flex">
+					<div class="header-menu">
+						<a class="nav-button -menu js-menu" title="Menu" id="hamburger" tabindex="1" role="button" on="tap:hamburger.toggleClass(class='-active'),nav-menu.toggleClass(class='-active')">
+							<span class="icon icon-bar">
+								<i></i>
+							</span>
+						</a>
+					</div>
+					<div class="header-logo">
+						<div class="logo">
+							<a href="index.html">
+								<amp-img src="./asset/images/logo-bazaar-small.png" alt="Harper's BAZAAR Indonesia" width="124" height="35"></amp-img>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="header-holder"></div>
+			
+		<!-- root -->
+		<div class="root">
+
+			<div class="col-fluid">
+				<div class="container clearfix">
+
+					{{#withFirst read.amp}}
+					<!-- content -->
+					<section class="content-header">
+						<h1 class="content-title">{{this.title}}</h1>
+						<p class="content-lead">{{this.lead}}</p>
+					</section>
+
+					<article class="content-main">
+						<div class="content-info col-flex">
+							<div class="content-author-img">
+								<amp-img src="./asset/images/dummy/{{this.author_img}}" alt="{{this.author}}" width="40" height="40"></amp-img>
+							</div>
+							<div class="content-author">
+								<div class="content-author-name">by: <a href="indeks-author.html">{{this.author}}</a></div>
+								<div class="content-date"> / 23 Sep 2020</div>
+							</div>
+						</div>
+						<div class="content-social col-flex">
+							<div class="social-item">
+								<a href="#" class="social-link -facebook">
+									<amp-social-share class="rounded" width="22" height="22" type="facebook"></amp-social-share>
+								</a>
+							</div>
+							<div class="social-item">
+								<a href="#" class="social-link -twitter">
+									<amp-social-share class="rounded" width="22" height="22" type="twitter"></amp-social-share>
+								</a>
+							</div>
+							<div class="social-item">
+								<a href="#" class="social-link -whatsapp">
+									<amp-social-share class="rounded" width="22" height="22" type="whatsapp"></amp-social-share>
+								</a>
+							</div>
+							<div class="social-item">
+								<a href="#" class="social-link -linkedin">
+									<amp-social-share class="rounded" width="22" height="22" type="linkedin"></amp-social-share>
+								</a>
+							</div>
+							<div class="social-item">
+								<a href="#" class="social-link -line">
+									<amp-social-share class="rounded" width="22" height="22" type="line"></amp-social-share>
+								</a>
+							</div>
+						</div>
+						<div class="content-photo-main">
+							<div class="photo-main">
+								<div class="photo-img">
+									<amp-img src="./asset/images/dummy/{{this.img}}" alt="{{this.title}}" class="contain" layout="fill"></amp-img>
+								</div>
+								<div class="photo-credit">{{this.img_author}}</div>
+							</div>
+						</div>
+						<div class="content-body">
+							{{{this.content}}}
+
+							{{#if this.content2}}
+							{{{this.content2}}}
+							{{/if}}
+
+							{{#if this.content3}}
+							{{{this.content3}}}
+							{{/if}}
+
+							{{#if this.content4}}
+							{{{this.content4}}}
+							{{/if}}
+							<amp-iframe width="200" height="125"
+								sandbox="allow-scripts allow-same-origin"
+								layout="responsive"
+								frameborder="0"
+								src="{{this.video}}">
+							</amp-iframe>
+						</div>
+						<div class="content-tag">
+							<ul class="tag col-flex">
+								{{#each this.tag}}
+								<li class="tag-item"><a href="tagging.html" class="tag-link">{{this}}</a></li>
+								{{/each}}
+							</ul>
+						</div>
+						<div class="content-related">
+							<div class="related">
+								<div class="related-subtitle">Related Story</div>
+								{{#each related}}
+								<div class="related-wrap col-flex">
+									<div class="related-img">
+										<a href="artikel.html" class="related-link">
+											<amp-img src="https://asset.kompas.com/crop/0x0:0x0/250x125/data/photo/{{this.img}}" alt="{{this.title}}" layout="fill"></amp-img>
+										</a>
+									</div>
+									<div class="related-title"><a href="artikel.html" class="related-link">{{this.title}}</a></div>
+								</div>
+								{{/each}}
+							</div>
+						</div>
+					</article>
+					{{/withFirst}}
+
+				</div>
+			</div>
+			<div class="col-fluid">
+				<div class="container clearfix">
+
+					<h2 class="heading-next"><span>Read Next</span></h2>
+					<section class="feed feed-2 -more col-flex">
+						{{#withFirst latest 4}}
+						<div class="feed-item">
+							<div class="feed-asset">
+								<a href="{{link}}" class="feed-link">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/320x320/data/photo/{{img}}" alt="{{title}}" layout="fill"></amp-img>
+								</a>
+							</div>
+							<div class="feed-box">
+								<h3 class="feed-title"><a href="{{link}}" class="feed-link">{{title}}</a></h3>
+							</div>
+						</div>
+						{{/withFirst}}
+					</section>
+
+					<h2 class="heading-more"><span>More From</span>Fashion</h2>
+					<section class="feed feed-2 -more col-flex">
+						{{#withFirst latest 6}}
+						<div class="feed-item">
+							<div class="feed-asset">
+								<a href="{{link}}" class="feed-link">
+									<amp-img src="https://asset.kompas.com/crop/0x0:0x0/320x320/data/photo/{{img}}" alt="{{title}}" layout="fill"></amp-img>
+								</a>
+							</div>
+							<div class="feed-box">
+								<h3 class="feed-title"><a href="{{link}}" class="feed-link">{{title}}</a></h3>
+							</div>
+						</div>
+						{{/withFirst}}
+					</section>
+
+				</div>
+			</div>
+			
+			<!-- footer -->
+			<footer class="footer">
+				<div class="container">
+					<div class="footer-row col-flex">
+						<div class="footer-col">
+							<div class="footer-logo">
+								<a href="index.html">
+									<amp-img src="./asset/images/logo-bazaar-small.png" alt="Harper's BAZAAR Indonesia" width="124" height="35"></amp-img>
+								</a>
+							</div>
+						</div>
+						<div class="footer-col">
+							<nav class="footer-menu">
+								<ul class="footer-menu-wrap col-flex">
+									{{#each menu_footer}}
+									<li class="footer-menu-item"><a href="{{link}}" class="footer-menu-link">{{title}}</a></li>
+									{{/each}}
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="footer-row col-flex">
+						<div class="footer-col">
+							<div class="footer-network">
+								<div class="footer-network-wrap col-flex">
+									<div class="footer-network-logo -mra"><a href="#" target="_blank"><amp-img src="./asset/images/logo-mra-media.png" alt="MRA MEDIA" width="90" height="37"></amp-img></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="footer-col">
+							<div class="footer-copyright">
+								<p>A PART OF MRA MEDIA</p>
+								<p>Harper's BAZAAR Indonesia participates in various affiliate marketing programs, which means we may get paid commissions on editorially chosen products purchased through our links to retailer sites.</p>
+								<p>©2020 Harper's BAZAAR Indonesia. All Rights Reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+
+	<!-- navpanel -->
+	{{> navpanel}}
+
+	<!-- searchpanel -->
+	{{> searchpanel}}
+
+	<!-- header -->
+	{{> header}}
+		
+	<!-- root -->
+	<div class="root">
+		
+		<!-- ads top -->
+		{{> ads_top}}
+
+		<div class="col-fluid">
+			<div class="container clearfix">
+
+				<!-- latest -->
+				{{> title type='small' content="All News"}}
+				<section class="feed feed-list col-flex">
+					{{> latest_section_list index_start=0 index_end=12}}
+				</section>
+
+				{{> paging}}
+
+			</div>
+		</div>
+		
+		<!-- footer -->
+		{{> footer}}
+		
+	</div>
+
+	<!-- ads horizontal -->
+	{{> ads_horizontal}}
+
+	{{> js}}
+	
+</body>
+</html>

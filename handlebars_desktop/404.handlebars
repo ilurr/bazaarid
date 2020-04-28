@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+
+	<!-- navpanel -->
+	{{> navpanel}}
+
+	<!-- searchpanel -->
+	{{> searchpanel}}
+
+	<!-- logo big -->
+	{{> logo_block}}
+
+	<!-- header -->
+	{{> header}}
+		
+	<!-- root -->
+	<div class="root">
+		
+		<!-- ads top -->
+		{{> ads_top}}
+
+		<div class="col-fluid">
+			<div class="container clearfix">
+
+				<!-- 404 -->
+				{{> title type='small' content="404"}}
+				<section class="content-body">
+					<h2>Page not found</h2>
+					<p>Sorry, the page you're looking for doesn't exist or another error occured. <a href="index.html">Go back</a> to our home page.</p>
+				</section>
+
+			</div>
+		</div>
+		
+		<!-- footer -->
+		{{> footer}}
+		
+	</div>
+
+	<!-- ads horizontal -->
+	{{!> ads_horizontal}}
+
+	{{> js}}
+	
+</body>
+</html>

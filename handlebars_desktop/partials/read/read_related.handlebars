@@ -1,0 +1,13 @@
+<div class="related">
+	<div class="related-subtitle">Related Story</div>
+	{{#each related}}
+	<div class="related-wrap col-flex">
+		<div class="related-img">
+			<a href="artikel.html" class="related-link">
+				<img src="https://asset.kompas.com/crop/0x0:0x0/125x125/data/photo/{{this.img}}" alt="{{this.title}}">
+			</a>
+		</div>
+		<div class="related-title"><a href="artikel.html" class="related-link">{{this.title}}</a></div>
+	</div>
+	{{/each}}
+</div>

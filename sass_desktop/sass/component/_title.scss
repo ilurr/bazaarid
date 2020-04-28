@@ -1,0 +1,118 @@
+.heading {
+	position: relative;
+	&-small,
+	&-feed {
+		position: relative;
+		margin: 2.5rem 0 2rem;
+		//padding: 0 0 1.250em;
+		text-transform: uppercase;
+		font-style: italic;
+		@include font-pack(false, 3rem, false, 1, #707070);
+		@include min-responsive($screen-tablet) {
+			letter-spacing: 1px;
+			font-size: 4.5rem;
+		}
+		@include min-responsive($screen-desktop) {
+			font-size: 5.750rem;
+		}
+		span {
+			//display: inline-block;
+			position: relative;
+			background: #fff;
+			z-index: 2;
+			padding-right: 10px;
+			-webkit-box-decoration-break: clone;
+			box-decoration-break: clone;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			bottom: 15px;
+			left: 0;
+			border-top: 2px solid #707070;
+			@include min-responsive($screen-tablet) {
+				bottom: 30px;
+			}
+			@include min-responsive($screen-desktop) {
+				bottom: 45px;
+			}
+		}
+		&.-center {
+			text-align: center;
+			//font-size: 2.5rem;
+			@include min-responsive($screen-tablet) {
+				letter-spacing: 2px;
+				font-size: 3.5rem;
+			}
+			@include min-responsive($screen-desktop) {
+				font-size: 4.750rem;
+			}
+			span {
+				padding-left: 10px;
+			}
+			&:after {
+				bottom: 15px;
+				@include min-responsive($screen-tablet) {
+					bottom: 25px;
+				}
+				@include min-responsive($screen-desktop) {
+					bottom: 38px;
+				}
+			}
+		}
+	}
+	&-small {
+		font-size: 3.5rem;
+		@include min-responsive($screen-desktop) {
+			font-size: 4rem;
+		}
+		&:after {
+			bottom: 20px;
+			@include min-responsive($screen-desktop) {
+				bottom: 30px;
+			}
+		}
+	}
+	&-next {
+		position: relative;
+		margin: 2.5rem 0 2rem;
+		//padding: 0 0 1.250em;
+		font-style: italic;
+		text-align: center;
+		border-bottom: 2px solid #707070;
+		@include font-pack(false, 3rem, false, 1, #707070);
+		@include min-responsive($screen-tablet) {
+			letter-spacing: 1px;
+			font-size: 4rem;
+		}
+	}
+	&-more {
+		position: relative;
+		margin: 1.563rem 0;
+		padding: 0;
+		text-align: center;
+		text-transform: uppercase;
+		font-style: italic;
+		@include font-pack(false, 3rem, false, 1, #707070);
+		@include min-responsive($screen-tablet) {
+			letter-spacing: 1px;
+			font-size: 4rem;
+		}
+		span {
+			display: block;
+			font-style: normal;
+			text-decoration: none;
+			padding: 0 0 10px;
+			@include font-pack($font_secondary, 1rem, false, 1, #707070);
+			&:before {
+				content: '{ ';
+				color: $color_theme;
+			}
+			&:after {
+				content: ' }';
+				color: $color_theme;
+			}
+		}
+	}
+}

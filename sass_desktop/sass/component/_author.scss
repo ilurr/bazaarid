@@ -1,0 +1,50 @@
+.author {
+	position: relative;
+	&-header {
+		position: relative;
+		padding: 20px 0 25px;
+		// margin-bottom: 20px;
+		// border-bottom: 1px solid #f1f1f1;
+	}
+	// &-wrap {
+	// 	align-items: center;
+	// }
+	&-img {
+		width: 120px;
+		height: 120px;
+		overflow: hidden;
+		border-radius: 100%;
+	}
+	&-box {
+		width: calc(100% - 120px);
+		padding: 0 20px;
+	}
+	&-name {
+		margin: 0 0 5px;
+		@include font-pack(false, 24px, false, false, false);
+		text-shadow: 0 0 0 #000, 0 0 0.01em transparent;
+		text-transform: uppercase;
+	}
+	&-role {
+		@include font-pack($font_secondary, 14px, false, false, $color_theme);
+	}
+	&-desc {
+		margin: 10px 0 0;
+		@include font-pack($font_secondary, 14px, false, 1.4, false);
+	}
+	&-social {
+		margin: 10px 0 0;
+		.social-link {
+			width: 20px;
+			height: 20px;
+			padding: 2px;
+			font-size: 16px;
+			color: #333;
+			background: transparent;
+			&:hover {
+				color: $color_theme;
+				background: transparent;
+			}
+		}
+	}
+}

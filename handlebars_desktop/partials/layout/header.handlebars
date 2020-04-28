@@ -1,0 +1,37 @@
+<header class="header">
+	<div class="header-bar">
+		<div class="header-wrap container col-flex">
+			<div class="header-menu">
+				<a href="#" class="nav-button -menu js-menu" title="Menu">
+					<span class="icon icon-bar">
+						<i></i>
+					</span>
+				</a>
+			</div>
+			<div class="header-logo">
+				<div class="logo">
+					<a href="index.html">
+						<img src="./asset/images/logo-bazaar-small.png" alt="Harper's BAZAAR Indonesia">
+					</a>
+				</div>
+			</div>
+			<div class="header-nav col-flex">
+				{{> nav menu_title=menu_title}}
+			</div>
+			<div class="header-search">
+				<div class="nav-follow">
+					<a href="#" class="nav-link js-follow">Follow</a>
+				</div>
+				<a href="#" class="nav-button -search js-search" title="Search">
+					<span class="icon icon-search"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="social-bar">
+		<div class="social-bar-wrap container col-flex">
+			{{> social facebook=true twitter=true instagram=true youtube=true}}
+		</div>
+	</div>
+</header>
+<div class="header-holder"></div>

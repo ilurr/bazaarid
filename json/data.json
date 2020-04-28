@@ -1,0 +1,695 @@
+{
+  "menu": [
+    {
+      "title": "Fashion",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0,
+      "submenu": []
+    },
+    {
+      "title": "Beauty",
+      "link": "kanal-tipe2.html",
+      "new": 0,
+      "ads": 0,
+      "submenu": []
+    },
+    {
+      "title": "Celebrity",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0,
+      "submenu": []
+    },
+    {
+      "title": "Culture",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0,
+      "submenu": []
+    },
+    {
+      "title": "People",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0,
+      "submenu": []
+    },
+    {
+      "title": "Bride",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0,
+      "submenu": []
+    },
+    {
+      "title": "All Videos",
+      "link": "video.html",
+      "new": 0,
+      "ads": 0,
+      "submenu": []
+    },
+    {
+      "title": "Follow",
+      "link": "kanal.html",
+      "new": 0,
+      "ads": 0,
+      "submenu": [
+        {
+          "title": "Facebook",
+          "link": "#"
+        },
+        {
+          "title": "Twitter",
+          "link": "#"
+        },
+        {
+          "title": "Instagram",
+          "link": "#"
+        },
+        {
+          "title": "Youtube",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "title": "Privacy Policy",
+      "link": "static.html",
+      "new": 0,
+      "ads": 0,
+      "submenu": []
+    }
+  ],
+  "menu_footer": [
+    {
+      "title": "Newsletter",
+      "link": "static.html"
+    },
+    {
+      "title": "Events & Promotions",
+      "link": "static.html"
+    },
+    {
+      "title": "About Us",
+      "link": "static.html"
+    },
+    {
+      "title": "Contact Us",
+      "link": "static.html"
+    },
+    {
+      "title": "Subscribe",
+      "link": "static.html"
+    },
+    {
+      "title": "Advertise",
+      "link": "static.html"
+    }
+  ],
+  "latest": [
+    {
+      "title": "Meghan Markle dan Pangeran Harry Berbagi Makanan di LA",
+      "subtitle": "People",
+      "lead": "Duke dan Duchess of Sussex mengenakan alat pelindung diri saat mereka menghabiskan dua hari menjadi sukarelawan untuk Project Angel Food.",
+      "img": "2018/05/08/3523166978.jpg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Putri Arifa Malik",
+      "author_img": "56.jpg",
+      "ads": 0
+    },
+    {
+      "title": "Sejumlah Kegiatan Menarik Ini Juga Bisa Dilakukan di Bioskop",
+      "subtitle": "Culture",
+      "lead": "Mulai dari kegiatan fans gathering hingga menjelajah dunia fantasi, kini bioskop bukan sekadar tempat untuk menonton film.",
+      "img": "2019/04/02/1167570930.jpg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Erlissa Florencia",
+      "author_img": "Erlissa-Florencia.jpg",
+      "ads": 0
+    },
+    {
+      "title": "Mengenal Koleksi Wewangian Terbaru Lansiran Louis Vuitton",
+      "subtitle": "Beauty",
+      "lead": "Bertajuk California Dream, lihat kisah di balik wewangian yang diciptakan oleh Jacques Cavallier Belletrud ini.",
+      "img": "2020/01/29/5e3105fd75bca.jpg",
+      "link": "artikel-listing.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Astrid Bestari",
+      "author_img": "48.jpg",
+      "ads": 0
+    },
+    {
+      "title": "Instagram Luncurkan Fitur Baru Untuk Bantu Usaha Kecil",
+      "subtitle": "Culture",
+      "lead": "Ini akan mendukung mereka selama masa-masa yang tidak pasti ini.",
+      "img": "2019/12/16/5df7603ec14de.jpeg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Sabrina Sulaiman",
+      "author_img": "35.jpg",
+      "ads": 0
+    },
+    {
+      "title": "Transformasi Persona Pevita Pearce",
+      "subtitle": "People",
+      "lead": "Dalam hitungan belasan bulan Pevita berhasil mengubah pribadinya secara fisik dan mental demi sebuah kebaikan. Semuanya ia ceritakan kepada Erica Arifianda, bersamaan dengan penampilan terbarunya untuk pemotretan perdana Cover Digital Bazaar.Co.Id",
+      "img": "2016/01/21/1627218Pevita-Pearce-861780x390.JPG",
+      "link": "artikel-magazine.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Yudith Kindangen",
+      "author_img": "49.JPG",
+      "ads": 0
+    },
+    {
+      "title": "Inilah Prediksi Tren Gaun Pernikahan untuk Tahun 2020",
+      "subtitle": "Bride",
+      "lead": "Banyak hal tak terduga masuk ke dalam tren gaun pernikahan di musim depan.",
+      "img": "2017/07/20/778063953.jpg",
+      "link": "artikel-listing.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Tammy Tjenreng",
+      "author_img": "53.jpg",
+      "ads": 0
+    },
+    {
+      "title": "Berikut 5 Zodiak Paling Stylish, Apakah Anda Salah Satunya?",
+      "subtitle": "Culture",
+      "lead": "5 zodiak ini terbukti memiliki fashion sense terdepan dibandingkan zodiak-zodiak lainnya.",
+      "img": "2017/11/22/1890398417.jpeg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Ria Iskandar",
+      "author_img": "Ria-Iskandar.jpeg",
+      "ads": 0
+    },
+    {
+      "title": "Fashion Spread: Flip Your Life",
+      "subtitle": "Fashion",
+      "lead": "Ketika estetika fashion dan teknologi terbaru dari Samsung berkoalisi, tercipta desain modern dan sophisticated bertajuk Galaxy Z Flip.",
+      "img": "2020/03/05/5e605236293b4.jpg",
+      "link": "artikel-listing.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Gusti Aditya",
+      "author_img": "Gusti_Aditya_Medika_Permana.jpg",
+      "ads": 0
+    },
+    {
+      "title": "Fakta Tentang Gaun Pernikahan Gwyneth Paltrow",
+      "subtitle": "Bride",
+      "lead": "Gwyneth Paltrow menampikan dua gaun menakjubkan di momen pernikahannya.",
+      "img": "2019/02/20/41366748371.jpg",
+      "link": "artikel-center-aligned.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Kezia Calesta",
+      "author_img": "56.jpg",
+      "ads": 0
+    },
+    {
+      "title": "Pangeran George Terlihat Bantu Petugas Pengiriman di Norfolk",
+      "subtitle": "People",
+      "lead": "Staf pengiriman \"terkejut dan senang\" karena betapa ringan tangannya Pangeran George.",
+      "img": "2017/07/24/4259631864.jpg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Erica Arifianda",
+      "author_img": "49.jpeg",
+      "ads": 0
+    },
+    {
+      "title": "10 Tren Kalung Spring/Summer 2020 yang Perlu Anda Ketahui",
+      "subtitle": "Beauty",
+      "lead": "Intip berbagai varian kalung dari panggung mode yang menjadi tren di musim Spring/Summer 2020.",
+      "img": "2018/02/20/3818755733.jpg",
+      "link": "artikel-listing.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Elizabeth Michelle",
+      "author_img": "48.jpg",
+      "ads": 0
+    },
+    {
+      "title": "Kulit Anda Berminyak? Ikuti 6 Tips Makeup Ini",
+      "subtitle": "Fashion",
+      "lead": "Sederet tips makeup untuk Anda yang memiliki kulit berminyak",
+      "img": "2020/02/14/5e46455f73239.jpg",
+      "link": "artikel.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Fariza Rahmadinna",
+      "author_img": "48.jpg",
+      "ads": 0
+    }
+  ],
+  "video": [
+    {
+      "title": "Perjalanan Mikha Tambayong ke New York Bersama Michael Kors ",
+      "subtitle": "People",
+      "lead": "Dalam balutan busana kreasi Michael Kors di musim ini, Mikha Tambayong tampil stylish ketika mengunjungi New York dalam rangka New York Fashion Week pada pertengahan Februari silam.",
+      "video": "Hco4YGaO-2Y",
+      "img": "https://i3.ytimg.com/vi/Hco4YGaO-2Y/maxresdefault.jpg",
+      "link": "artikel-video.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Fariza Rahmadinna",
+      "duration": "01:30",
+      "ads": ""
+    },
+    {
+      "title": "Tips Mix & Match dengan 1 Kemeja Putih",
+      "subtitle": "Fashion",
+      "lead": "Mulai dari gaya kasual jika dipadankan dengan denim, bahkan cocok dikenakan untuk tampilan formal.",
+      "video": "0gRHNpAa6oo",
+      "img": "https://i3.ytimg.com/vi/0gRHNpAa6oo/maxresdefault.jpg",
+      "link": "artikel-video.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Elizabeth Michelle",
+      "duration": "01:30",
+      "ads": ""
+    },
+    {
+      "title": "Perjalanan Bazaar Bersama Bvlgari dan Jessie Setiono ke Shanghai",
+      "subtitle": "People",
+      "lead": "Perjalanan Bazaar Bersama Bvlgari dan Jessie Setiono ke Shanghai.",
+      "video": "kd_7tdHL58g",
+      "img": "https://i3.ytimg.com/vi/kd_7tdHL58g/maxresdefault.jpg",
+      "link": "artikel-video.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Erica Arifianda",
+      "duration": "01:30",
+      "ads": ""
+    },
+    {
+      "title": "Cara Mix & Match Jumpsuit",
+      "subtitle": "Beauty",
+      "lead": "Simak inspirasi padu padan jumpsuit di Harper's Bazaar Indonesia edisi Maret 2020.",
+      "video": "XOMdfth6aSU",
+      "img": "https://i3.ytimg.com/vi/XOMdfth6aSU/maxresdefault.jpg",
+      "link": "artikel-video.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Kezia Calesta",
+      "duration": "01:30",
+      "ads": ""
+    },
+    {
+      "title": "Tutorial Glittery Eyeshadow Untuk Tahun Baru",
+      "subtitle": "Beauty",
+      "lead": "Glitter identik dengan kesan festive. Anda dapat membubuhkan glitter pada riasan smoky eyes untuk menampilan kesan mewah dan bersemangat menyambut tahun baru.",
+      "video": "AW37dzJNkOU",
+      "img": "https://i3.ytimg.com/vi/AW37dzJNkOU/hqdefault.jpg",
+      "link": "artikel-video.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Gusti Aditya",
+      "duration": "01:30",
+      "ads": ""
+    },
+    {
+      "title": "Tiga Generasi Membahas Area Kewanitaan: Dewi Motik Pramono, Moza Pramita, dan Akma Siregar",
+      "subtitle": "People",
+      "lead": "Meski perbedaan zaman yang sudah berubah, teknologi yang kian canggih, Moza Pramita selalu menerapkan tradisi yang ia garap dari ibunya, Dewi Motik Pramono kepada anaknya, Akma Siregar, dan generasi seterusnya, terutama perihal area kewanitaan.",
+      "video": "VUys8cTYxOY",
+      "img": "https://i3.ytimg.com/vi/VUys8cTYxOY/maxresdefault.jpg",
+      "link": "artikel-video.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Ria Iskandar",
+      "duration": "01:30",
+      "ads": ""
+    },
+    {
+      "title": "Perjalanan Luna Maya di New York City Bersama Tory Burch",
+      "subtitle": "Fashion",
+      "lead": "Inilah penampilan Luna Maya saat menghadiri New York Fashion Week. Luna hadir untuk menonton fashion show Tory Burch Spring",
+      "video": "4FgtD-VQNz0",
+      "img": "https://i3.ytimg.com/vi/4FgtD-VQNz0/maxresdefault.jpg",
+      "link": "artikel-video.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Tammy Tjenreng",
+      "duration": "01:30",
+      "ads": ""
+    },
+    {
+      "title": "Chanel x Harper's Bazaar Indonesia: Code Coco with Salvita Decorte",
+      "subtitle": "Fashion",
+      "lead": "Follow the journey of Salvita Decorte to discover Bali's cultural code with Chanel Code Coco.",
+      "video": "Tz1C6PrSo_M",
+      "img": "https://i3.ytimg.com/vi/Tz1C6PrSo_M/hqdefault.jpg",
+      "link": "artikel-video.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Yudith Kindangen",
+      "duration": "01:30",
+      "ads": ""
+    },
+    {
+      "title": "Sulwhasoo X Harper's Bazaar : Titi Rajo Bintang",
+      "subtitle": "People",
+      "lead": "Musisi dan aktris Titi Rajo Bintang menceritakan rahasianya dalam tampil pari purna setiap saat.",
+      "video": "XDAwax-LKt8",
+      "img": "https://i3.ytimg.com/vi/XDAwax-LKt8/maxresdefault.jpg",
+      "link": "artikel-video.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Astrid Bestari",
+      "duration": "01:30",
+      "ads": ""
+    },
+    {
+      "title": "Velove Vexia's Beauty Diary",
+      "subtitle": "Beauty",
+      "lead": "Penerapan hidup sehat dan mindful living oleh aktris Velove Vexia tidak lengkap tanpa kehadiran Dior Capture Totale Serum.",
+      "video": "AAEo_NrPZrQ",
+      "img": "https://i3.ytimg.com/vi/AAEo_NrPZrQ/maxresdefault.jpg",
+      "link": "artikel-video.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Sabrina Sulaiman",
+      "duration": "01:30",
+      "ads": ""
+    },
+    {
+      "title": "Iqbaal Ramadhan in Conversation With Reza Rahadian",
+      "subtitle": "People",
+      "lead": "Apa perasaan Iqbaal saat diajak untuk memerankan karakter Dilan? Dan mengapa Reza lebih menikmati berperan sebagai sosok villain?",
+      "video": "7713fhW4Ms8",
+      "img": "https://i3.ytimg.com/vi/7713fhW4Ms8/maxresdefault.jpg",
+      "link": "artikel-video.html",
+      "dates": "26/11/2016, 08:31 WIB",
+      "author": "Erlissa Florencia",
+      "duration": "01:30",
+      "ads": ""
+    }
+  ],
+  "read": {
+    "amp": [
+      {
+        "channel": "Beauty",
+        "subchannel": "",
+        "subtitle": "",
+        "title": "Kulit Anda Berminyak? Ikuti 6 Tips Makeup Ini",
+        "lead": "Sederet tips makeup untuk Anda yang memiliki kulit berminyak",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Fariza Rahmadinna",
+        "author_img": "48.jpg",
+        "editor": "",
+        "source": "",
+        "source_img": "",
+        "partner": "",
+        "ads": 0,
+        "img": "tips-makeup-untuk-kulit-berminyak_61_20200416102743nsJVW5.jpg",
+        "img_author": "Foto Courtesy of ayphoto©123RF.com",
+        "img_caption": "",
+        "video": "https://www.youtube.com/embed/Hco4YGaO-2Y",
+        "related": [
+          {
+            "title": "Mengenal Koleksi Wewangian Terbaru Lansiran Louis Vuitton",
+            "img": "2020/01/29/5e3105fd75bca.jpg"
+          }
+        ],
+        "tag": [
+          "tips makeup",
+          " kulit berminyak"
+        ],
+        "shop": [
+          {
+            "cat": "the sulfate-free cleanser",
+            "brand": "Drunk Elephant Cocomino Glossing Shampoo",
+            "site": "sephora.com",
+            "price": "$25.00",
+            "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586182434-screen-shot-2020-04-06-at-10-13-20-am-1586182425.png?crop=0.843xw:0.975xh;0.0673xw,0.0185xh&resize=320%3A%2A"
+          },
+          {
+            "cat": "the marula oil conditioner",
+            "brand": "Drunk Elephant Cocomino Marula Cream Conditioner",
+            "site": "sephora.com",
+            "price": "$25.00",
+            "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586182039-screen-shot-2020-04-06-at-10-06-39-am-1586182027.png?crop=0.894xw:0.934xh;0.00321xw,0.0592xh&resize=320%3A%2A"
+          },
+          {
+            "cat": "the gentle scalp scrub",
+            "brand": "Drunk Elephant T.L.C. Happi Scalp Scrub ",
+            "site": "sephora.com",
+            "price": "$36.00",
+            "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586182148-screen-shot-2020-04-06-at-10-08-36-am-1586182141.png?crop=0.968437259430331xw:1xh;center,top&resize=320%3A%2A"
+          },
+          {
+            "cat": "the lightweight leave-in",
+            "brand": "Drunk Elephant Wild Marula Tangle Spray",
+            "site": "sephora.com",
+            "price": "$36.00",
+            "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586182278-screen-shot-2020-04-06-at-10-10-46-am-1586182270.png?crop=0.8274647887323944xw:1xh;center,top&resize=320%3A%2A"
+          }
+        ],
+        "content": "<p>Apakah Anda memiliki kulit berminyak? Jika iya, pasti Anda pernah merasakan <i>makeup </i>tak mampu bertahan lama dan sulit untuk menempel di wajah. Namun, bukan berarti ini menjadi penghalang Anda untuk tampil cantik seharian. Tiap jenis kulit tentu mempunyai tantangannya masing-masing, tapi khusus untuk Anda yang memiliki jenis kulit berminyak biasanya perlu lebih teliti ketika mengaplikasikan <i>makeup</i>. Oleh karena itu, berikut ini adalah enam tip <i>makeup</i> untuk Anda yang memiliki kulit berminyak, agar mendapatkan hasil <i>makeup</i> yang lebih tahan lama dan bebas kilap seharian.</p><h2><b>Tip #1 mempersiapkan wajah </b></h2><p>Sebelum memulai berdandan, pastikan kulit wajah Anda benar-benar bersih dan sudah menyelesaikan rutinitas perawatan kulit wajah harian. Selain melakukan perawatan kulit wajah harian, <a href=\"#\">Anda juga perlu untuk melakukan perawatan kulit wajah mingguan</a> yakni, rutin menggunakan masker dan melakukan eksfoliasi. Pilih masker yang mampu menyerap minyak berlebih pada wajah, serta eksfoliator dengan <i>scrub</i> yang lembut <i>(gentle)</i>. Lakukan step ini dua sampai tiga kali dalam seminggu supaya kulit lebih halus.</p>",
+        "content2": "<h2><b>Tip #2 Menggunakan mattifying primer </b></h2><p>Bagi Anda yang memiliki kulit berminyak, salah satu kunci agar <i>makeup</i> lebih tahan lama yakni dengan mengaplikasikan <i>mattifying primer </i>pada wajah dan fokuskan pada daerah <i>T-zone</i> seperti dahi, hidung, dan dagu. <i>Primer</i> membantu untuk menyerap kelebihan minyak, mengecilkan pori-pori dan membuat riasan lebih tahan lama. Produk ini berguna untuk melapisi wajah sebelum mengaplikasikan dengan produk <i>makeup</i> selanjutnya.</p><h2><b>Tip #3 Pilih produk kosmetik yang sesuai</b></h2><p>Tips makeup untuk kulit wajah berminyak berikutnya adalah memilih produk kosmetik yang memiliki formula ringan, berlabel <i>oil-free</i>, dan <i>non-comedogenic</i>. Memilih produk yang <i>full coverage</i> dan memiliki konsistensi kental <i>(thick)</i> justru akan <a href=\"#\">membuat pori-pori mudah tersumbat</a> sehingga munculnya jerawat dan komedo tidak dapat diminimalisir. Sementara untuk riasan mata, pilihlah produk yang label <i>waterproof </i>agar tidak mudah luntur.</p>",
+        "content3": "<h2><b>Tip #4 Menggunakan bedak tabur</b></h2><p>Bedak tabur memiliki peranan penting untuk membuat makeup lebih tahan lama di kulit berminyak. Tahap ini berfungsi untuk menyerap minyak berlebih dan membuat wajah bebas kilap seharian. Namun, jika di tengah-tengah beraktivitas wajah sudah sangat berminyak, Anda bisa menyerapnya dengan menggunakan <i>blotting paper</i>, lalu <i>touchup</i> kembali dengan bedak. </p><blockquote><span>”It’s okay to cut some people in your life. Because you are the main character of your life!”</span></blockquote><h2><b>Tip #5 Hindari penggunaan highlighter berlebihan</b></h2><p>Apakah kulit berminyak boleh menggunakan<i> highlighter</i>? Jawabannya boleh! Kuncinya, bubuhkan<i> highlighter</i> pada bagian tertinggi di wajah Anda secukupnya saja. Hindari <i>highlighter</i> berbentuk krim dan memiliki partikel shimmer yang besar. Aplikasikan <i>highlighter</i> tipis-tipis dengan kuas <i>highlighter</i> atau <i>fan brush</i>. Hindari membubuhkan <i>highlighter</i> pada area <i>T-zone</i>, karena akan membuat wajah Anda terlihat semakin berminyak ketika wajah sudah mulai memproduksi minyak.</p>",
+        "content4": "<h2><b>Tip #6 Gunakan setting spray</b></h2><p>Untuk mengunci <i>makeup</i> dan membuatnya lebih tahan lama, gunakan <i>setting spray </i>sebagai langkah terakhir dalam merias wajah. Produk ini berfungsi untuk mengunci makeup agar tidak luntur dan mencegah makeup terlihat <i>cakey</i>. Jerawat cenderung lebih mudah pada kulit berminyak. Oleh karena itu, jangan sembarangan dalam memilih <i>setting spray</i> untuk kulit berminyak. Sebaiknya, pilih <i>setting spray</i> yang mengandung <i>green tea</i> dengan hasil akhir <i>matte</i>, agar dapat menenangkan kulit, membuat <i>makeup</i> lebih tahan lama, serta kaya akan anti-inflamasi dan antioksidan. </p><p><i>(Foto Courtesy of ayphoto©123RF.com)</i></p>"
+      }
+    ],
+    "beauty": [
+      {
+        "channel": "Beauty",
+        "subchannel": "",
+        "subtitle": "",
+        "title": "Kulit Anda Berminyak? Ikuti 6 Tips Makeup Ini",
+        "lead": "Sederet tips makeup untuk Anda yang memiliki kulit berminyak",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Fariza Rahmadinna",
+        "author_img": "48.jpg",
+        "editor": "",
+        "source": "",
+        "source_img": "",
+        "partner": "",
+        "ads": 0,
+        "img": "tips-makeup-untuk-kulit-berminyak_61_20200416102743nsJVW5.jpg",
+        "img_author": "Foto Courtesy of ayphoto©123RF.com",
+        "img_caption": "",
+        "related": [
+          {
+            "title": "Mengenal Koleksi Wewangian Terbaru Lansiran Louis Vuitton",
+            "img": "2020/01/29/5e3105fd75bca.jpg"
+          }
+        ],
+        "tag": [
+          "tips makeup",
+          " kulit berminyak"
+        ],
+        "shop": [
+          {
+            "cat": "the sulfate-free cleanser",
+            "brand": "Drunk Elephant Cocomino Glossing Shampoo",
+            "site": "sephora.com",
+            "price": "$25.00",
+            "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586182434-screen-shot-2020-04-06-at-10-13-20-am-1586182425.png?crop=0.843xw:0.975xh;0.0673xw,0.0185xh&resize=320%3A%2A"
+          },
+          {
+            "cat": "the marula oil conditioner",
+            "brand": "Drunk Elephant Cocomino Marula Cream Conditioner",
+            "site": "sephora.com",
+            "price": "$25.00",
+            "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586182039-screen-shot-2020-04-06-at-10-06-39-am-1586182027.png?crop=0.894xw:0.934xh;0.00321xw,0.0592xh&resize=320%3A%2A"
+          },
+          {
+            "cat": "the gentle scalp scrub",
+            "brand": "Drunk Elephant T.L.C. Happi Scalp Scrub ",
+            "site": "sephora.com",
+            "price": "$36.00",
+            "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586182148-screen-shot-2020-04-06-at-10-08-36-am-1586182141.png?crop=0.968437259430331xw:1xh;center,top&resize=320%3A%2A"
+          },
+          {
+            "cat": "the lightweight leave-in",
+            "brand": "Drunk Elephant Wild Marula Tangle Spray",
+            "site": "sephora.com",
+            "price": "$36.00",
+            "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1586182278-screen-shot-2020-04-06-at-10-10-46-am-1586182270.png?crop=0.8274647887323944xw:1xh;center,top&resize=320%3A%2A"
+          }
+        ],
+        "content": "<p>Apakah Anda memiliki kulit berminyak? Jika iya, pasti Anda pernah merasakan <i>makeup </i>tak mampu bertahan lama dan sulit untuk menempel di wajah. Namun, bukan berarti ini menjadi penghalang Anda untuk tampil cantik seharian. Tiap jenis kulit tentu mempunyai tantangannya masing-masing, tapi khusus untuk Anda yang memiliki jenis kulit berminyak biasanya perlu lebih teliti ketika mengaplikasikan <i>makeup</i>. Oleh karena itu, berikut ini adalah enam tip <i>makeup</i> untuk Anda yang memiliki kulit berminyak, agar mendapatkan hasil <i>makeup</i> yang lebih tahan lama dan bebas kilap seharian.</p><h2><b>Tip #1 mempersiapkan wajah </b></h2><p>Sebelum memulai berdandan, pastikan kulit wajah Anda benar-benar bersih dan sudah menyelesaikan rutinitas perawatan kulit wajah harian. Selain melakukan perawatan kulit wajah harian, <a href=\"#\">Anda juga perlu untuk melakukan perawatan kulit wajah mingguan</a> yakni, rutin menggunakan masker dan melakukan eksfoliasi. Pilih masker yang mampu menyerap minyak berlebih pada wajah, serta eksfoliator dengan <i>scrub</i> yang lembut <i>(gentle)</i>. Lakukan step ini dua sampai tiga kali dalam seminggu supaya kulit lebih halus.</p>",
+        "content2": "<h2><b>Tip #2 Menggunakan mattifying primer </b></h2><p>Bagi Anda yang memiliki kulit berminyak, salah satu kunci agar <i>makeup</i> lebih tahan lama yakni dengan mengaplikasikan <i>mattifying primer </i>pada wajah dan fokuskan pada daerah <i>T-zone</i> seperti dahi, hidung, dan dagu. <i>Primer</i> membantu untuk menyerap kelebihan minyak, mengecilkan pori-pori dan membuat riasan lebih tahan lama. Produk ini berguna untuk melapisi wajah sebelum mengaplikasikan dengan produk <i>makeup</i> selanjutnya.</p><h2><b>Tip #3 Pilih produk kosmetik yang sesuai</b></h2><p>Tips makeup untuk kulit wajah berminyak berikutnya adalah memilih produk kosmetik yang memiliki formula ringan, berlabel <i>oil-free</i>, dan <i>non-comedogenic</i>. Memilih produk yang <i>full coverage</i> dan memiliki konsistensi kental <i>(thick)</i> justru akan <a href=\"#\">membuat pori-pori mudah tersumbat</a> sehingga munculnya jerawat dan komedo tidak dapat diminimalisir. Sementara untuk riasan mata, pilihlah produk yang label <i>waterproof </i>agar tidak mudah luntur.</p>",
+        "content3": "<h2><b>Tip #4 Menggunakan bedak tabur</b></h2><p>Bedak tabur memiliki peranan penting untuk membuat makeup lebih tahan lama di kulit berminyak. Tahap ini berfungsi untuk menyerap minyak berlebih dan membuat wajah bebas kilap seharian. Namun, jika di tengah-tengah beraktivitas wajah sudah sangat berminyak, Anda bisa menyerapnya dengan menggunakan <i>blotting paper</i>, lalu <i>touchup</i> kembali dengan bedak. </p><blockquote><span>”It’s okay to cut some people in your life. Because you are the main character of your life!”</span></blockquote><h2><b>Tip #5 Hindari penggunaan highlighter berlebihan</b></h2><p>Apakah kulit berminyak boleh menggunakan<i> highlighter</i>? Jawabannya boleh! Kuncinya, bubuhkan<i> highlighter</i> pada bagian tertinggi di wajah Anda secukupnya saja. Hindari <i>highlighter</i> berbentuk krim dan memiliki partikel shimmer yang besar. Aplikasikan <i>highlighter</i> tipis-tipis dengan kuas <i>highlighter</i> atau <i>fan brush</i>. Hindari membubuhkan <i>highlighter</i> pada area <i>T-zone</i>, karena akan membuat wajah Anda terlihat semakin berminyak ketika wajah sudah mulai memproduksi minyak.</p>",
+        "content4": "<h2><b>Tip #6 Gunakan setting spray</b></h2><p>Untuk mengunci <i>makeup</i> dan membuatnya lebih tahan lama, gunakan <i>setting spray </i>sebagai langkah terakhir dalam merias wajah. Produk ini berfungsi untuk mengunci makeup agar tidak luntur dan mencegah makeup terlihat <i>cakey</i>. Jerawat cenderung lebih mudah pada kulit berminyak. Oleh karena itu, jangan sembarangan dalam memilih <i>setting spray</i> untuk kulit berminyak. Sebaiknya, pilih <i>setting spray</i> yang mengandung <i>green tea</i> dengan hasil akhir <i>matte</i>, agar dapat menenangkan kulit, membuat <i>makeup</i> lebih tahan lama, serta kaya akan anti-inflamasi dan antioksidan. </p><p><i>(Foto Courtesy of ayphoto©123RF.com)</i></p>"
+      }
+    ],
+    "fashion": [
+      {
+        "channel": "Fashion",
+        "subchannel": "",
+        "subtitle": "",
+        "title": "10 Tren Kalung Spring/Summer 2020 yang Perlu Anda Ketahui",
+        "lead": "Intip berbagai varian kalung dari panggung mode yang menjadi tren di musim Spring/Summer 2020.",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Elizabeth Michelle",
+        "author_img": "Erlissa-Florencia.jpg",
+        "editor": "",
+        "source": "",
+        "source_img": "",
+        "partner": "",
+        "ads": 0,
+        "img": "Webp_71_20200403122458zOD4dE.jpg",
+        "img_author": "Alessandro Viero/IMAXtree.com",
+        "img_caption": "",
+        "related": [
+          {
+            "title": "Mengenal Koleksi Wewangian Terbaru Lansiran Louis Vuitton",
+            "img": "2020/01/29/5e3105fd75bca.jpg"
+          }
+        ],
+        "tag": [
+          "tren kalung spring/summer 2020",
+          "fashion"
+        ],
+        "content": "<p>Memasuki dekade baru pada tahun 2020, beberapa aksesori kalung yang dikenakan sebagai pelengkap peragaan busana pun mulai menarik atensi. Mulai dari siluet, warna, bahan, hingga ornamen dekorasi, beberapa desainer meluncurkan aksesori tersebut dalam ragam desain yang disertai dengan sentuhan khasnya.</p><p>Berikut 10 tren kalung <i>Spring/Summer 2020</i> yang Bazaar rangkum dari berbagai peragaan busana.</p>",
+        "content_list": [
+          {
+            "no": "1",
+            "img": "tTzGx2_GiambattistaValliSpring_Summer2020.jpg",
+            "content": "<h2>Blooming flowers</h2><p>Tak dapat dipungkiri, musim semi memiliki ikatan yang kuat dengan berbagai macam bunga. Para desainer pun memilih ide tersebut dan mengaplikasikannya pada kalung sebagai dekorasi primer. Simak karya label Versace dan Giambattista Valli untuk mendapatkan inspirasi tampilan feminin dan memesona.</p>"
+          },
+          {
+            "no": "2",
+            "img": "Ful6rv_DolceGabbanaSpring_Summer2020.jpg",
+            "content": "<h2>Everything with chains</h2><p>Penggunaan rantai sebagai bahan utama pembuatan kalung berhasil memikat pandangan publik. Hadir dalam gaya <i>oversized</i>, karya dari label Dolce & Gabbana dan Zimmerman patut Anda masukkan ke dalam <i>wishlist</i>.</p>"
+          },
+          {
+            "no": "3",
+            "img": "UoROwL_MiuMiuSpring_Summer2020.jpg",
+            "content": "<h2>Pearls in modern way</h2><p>Material klasik ini tak pernah gagal memukau setiap tampilan. Adanya sentuhan modern pada hasil rancangannya, Miu Miu luncurkan kalung berbahan mutiara dalam siluet menarik.</p>"
+          },
+          {
+            "no": "4",
+            "img": "IUXxa3_ChloeSpring_Summer2020.jpg",
+            "content": "<h2>Not just initials as a pendant</h2><p>Tren mengenakan kalung dengan liontin berbentuk alfabet yang merupakan inisial nama ini tak pernah lekang oleh waktu. Namun, desainer Chloe sukses memadu padankan kalung berinisial nama tersebut dengan berbagai logam dan menghasilkan tampilan baru yang elegan.</p>"
+          },
+          {
+            "no": "5",
+            "img": "JZS1Xh_SaintLaurentSpring_Summer2020.jpg",
+            "content": "<h2>Hippie layered</h2><p>Beberapa liontin yang dikreasikan pada rantai kalung panjang bertumpuk membawakan kesan seksi. Simak padu padan kreasi bertumpuk ini pada foto peragaan busana Saint Laurent dan Celine.</p>"
+          },
+          {
+            "no": "6",
+            "img": "X7lp4E_Ports1961Spring_Summer2020.jpg",
+            "content": "<h2>Colorful material</h2><p>Semarak memasuki musim panas turut disambut oleh para desainer dengan meluncurkan kalung berona cerah. Label Ports 1961 dan Brandon Maxwell melibatkan atraksi tabrak warna pada rancangannya dan berhasil memberikan hembusan segar pada pemakainya.</p>"
+          },
+          {
+            "no": "7",
+            "img": "ti6WTI_KwaidanEditionsSpring_Summer2020.jpg",
+            "content": "<h2>The power of chokers</h2><p>Tak hanya sekedar mengenakan <i>choker</i>, pada musim ini Anda harus bermain padu padan dengan berbagai kalung yang juga sedang menjadi tren untuk mendapatkan tampilan ekstra. Apabila Anda tak punya waktu untuk itu, pilihlah <i>choker</i> dalam ukuran medium seperti hasil rancangan label Kwaidan sebagai solusinya.</p>"
+          },
+          {
+            "no": "8",
+            "img": "Y7bweR_PhilipLimSpring_Summer2020.jpg",
+            "content": "<h2>Metal creations</h2><p>Perhiasan yang menggunakan material bertekstur memiliki daya tarik tersendiri. Seperti yang terlihat pada peragaan busana koleksi label 3.1 Philip Lim, kreasi estetis pada permukaan perak yang tampak sebagai bahan utama kalung kian memesona tampilan.</p>"
+          }
+        ]
+      }
+    ],
+    "people": [
+      {
+        "channel": "People",
+        "subchannel": "",
+        "subtitle": "",
+        "title": "Fakta Tentang Gaun Pernikahan Gwyneth Paltrow",
+        "lead": "Gwyneth Paltrow menampikan dua gaun menakjubkan di momen pernikahannya.",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Sabrina Sulaiman",
+        "author_img": "35.jpg",
+        "editor": "",
+        "source": "",
+        "source_img": "",
+        "partner": "",
+        "ads": 0,
+        "img": "24-gp-and-brad-post-ceremony-1541172522_50_201811071339296U8V1F.jpg",
+        "img_author": "Courtesy of Bazaar US",
+        "img_caption": "-",
+        "related": [
+          {
+            "title": "Pangeran George Terlihat Bantu Petugas Pengiriman di Norfolk",
+            "img": "2017/07/24/4259631864.jpg"
+          },
+          {
+            "title": "Transformasi Persona Pevita Pearce",
+            "img": "2016/01/21/1627218Pevita-Pearce-861780x390.JPG"
+          }
+        ],
+        "tag": [
+          "gaun pernikahan",
+          "gwyneth paltrow",
+          "giambattista valli",
+          "stella mccartney",
+          "pernikahan"
+        ],
+        "content": "<p>Meski <a href=\"https://www.harpersbazaar.co.id/articles/read/7/2018/5541/Gwyneth-Paltrow-Menjadi-Host-Koleksi-Terbaru-Cartier\">Gwyneth Paltrow</a> pernah menikah sebelumnya, namun ia tidak pernah memiliki upacara penikahan yang sebenarnya. “Saya tidak pernah memiliki pernikahan yang sebenarnya, dan saya sangat senang dengan ini!” pengakuan Gwyneth kepada <i>People</i> di bulan Januari. Gwyneth Paltrow sendiri pernah melangsungkan pernikahan bersama Chris Martin di tahun 2003.</p><p>29 September menjadi hari penting bagi Gwyneth. Karena pada akhirnya Gwyneth bisa merasakan menjadi pengantin wanita yang sebenarnya. Gwyneth menikah dengan penulis televisi <a href=\"https://www.harpersbazaar.co.id/articles/read/10/2018/5825/Siapa-Suami-Kedua-Gwyneth-Paltrow-Brad-Falchuk\">Brad Falchuck</a>. Pernikahan ini menjadi pernikahan yang intim dan tertutup di <a href=\"https://www.harpersbazaar.co.id/articles/read/10/2018/5811/Ini-Lokasi-Pernikahan-Kedua-Gwyneth-Paltrow-Hamptons\">Hamptons</a>.</p><p>Sebulan setelah pernikahan yang sangat rahasia ini di adakan. <i>Bazaar</i> akhirnya mengetahui tentang <a href=\"https://www.harpersbazaar.co.id/articles/read/6/2017/4168/50-Gaun-Pengantin-Paling-Populer\">gaun</a> yang digunakan sang mempelai wanita di hari bahagianya. Dan berikut <i>Bazaar</i> tampilkan apa yang kami ketahui mengenai penampilan fashion sang mempelai wanita di hari bahagianya.</p><h2>Gwyneth dan gaun brokat Valentino</h2><p>Gwyneth berjalan menyusuri altar menggunakan <a href=\"https://www.harpersbazaar.co.id/articles/read/11/2017/4772/Indahnya-Gaun-Pengantin-Kate-Upton-Rancangan-Valentino\">gaun Valentino </a>yang menakjubkan, dengan brokat yang diaplikasikan di atas kain berwarna kulit, berlengan pendek, memiliki rok dengan potongan lingkar dan aksen <i>keyhole</i> di bagian belakang. Sang pengantin berkolaborasi dengan desainer Pierpaolo Piccioli untuk menciptakan tampilan tersebut. Ini menjadi kesatuan dengan penutup kepala berbahan tule yang dikenakannya.</p>",
+        "content2": "<h2>Gwyneth memiliki hubungan erat dengan Valentino</h2><p>Gwyneth memiliki hubungan yang erat dengan <a href=\"https://www.harpersbazaar.co.id/articles/read/3/2017/3601/Proyeksi-Kontemporer-Valentino\">Valentino</a>, dari duduk di barisan depan untuk <i>fashion show </i>Valentino, sampai berlibur bersama sang desainer di Mexico (trip rahasia yang dilakukan di bulan Juli, yang menimbulkan rumor mengenai desainer untuk pernikahannya)</p><p>Ketika Pierpaolo Picciolo menduduki posisi sebagai kreatif direktur Valentino, Valentino Garavani dan Giancarlo Giammetti tetap mengambil bagian dari proyek eksklusif Valentino dan tetap mengambil bagian di barisan depan pergelaran mode setiap musimnya. </p><p>Bahkan Gwyneth pernah berkolaborasi dengan Valentino, saat berada di bawah arahan Maria Grazia Chiuri dan Pierpaolo Picciolo untuk koleksi kapsul di tahun 2015. Hubungan Gwyneth dan rumah mode Valentino telah terjalin bertahun-tahun seiring dengan hubungan persahabatannya bersama sang desain rumah mode tersebut. Hal ini dapat diartikan bahwa <a href=\"https://www.harpersbazaar.co.id/articles/read/7/2017/4281/30-Inspirasi-Gaun-Pengantin\">gaun pernikahan</a> Gwyneth menjadi <a href=\"https://www.harpersbazaar.co.id/articles/read/5/2017/3938/Ide-Gaun-Pernikahan-dari-Fetty-Rusli-Retromantic\">gaun pernikahan</a> luar biasa yang dibuat oleh Valentino <i>Haute Couture</i>.</p><div class=\"photo-body -large\"><div class=\"photo-img\"><img src=\"./asset/images/dummy/xh2jLsR_hbz-gwyneth-paltrow-52252834-1538177623.jpg.pagespeed.ic.zRB4odZ2RC.jpg\"></div></div>",
+        "content3": "<h2>Gwyneth menggunakan Stella McCartney dengan potongan <i>cape romper</i> untuk resepsi</h2><p><i>After party</i> Gwyneth dan Brad mengusung tema 80an. Sejalan dengan tema tersebut, tentunya Gwyneth membutuhkan <a href=\"https://www.harpersbazaar.co.id/tag/index/gaun-pernikahan\">gaun </a>yang bisa memudahkannya untuk bergerak bebas dan menari. Gwyneth mengganti gaun <a href=\"https://www.harpersbazaar.co.id/articles/read/10/2018/5819/Pernikahan-Kedua-Gwyneth-Paltrow-Berlangsung-Privat\">pernikahannya</a> dengan baju <i>romper</i> yang <i>chic</i> hasil desain dari <a href=\"https://www.harpersbazaar.co.id/articles/read/3/2017/3734/Aksesori-Minimalis-dari-Stella-McCartney\">Stella McCartney</a> dengan <i>cape</i> sebagai tambahan yang dapat meningkatkan gayanya.</p><h2>Gwyneth dan Stella McCartney telah lama menjadi sahabat</h2><p>“Terkadang dalam hidup ini Anda akan menemukan seorang teman yang akan menjadi seperti saudara.\" Ungkap Gwyneth tentang sang desainer di tahun 2013; Berdasarkan laporan <i>The Telegraph</i>, Gwyneth telah membawa suasana pernikahan lewat koleksi <a href=\"https://www.harpersbazaar.co.id/articles/read/10/2018/5890/Sepatu-Vegetarian-Pertama-dari-Stella-McCartney\">Stela McCartney</a> sejak tahun 2005 ketika <i>Academy Awards</i>. Gwyneth tidak salah memilih teman untuk menciptakan <a href=\"https://www.harpersbazaar.co.id/articles/read/8/2017/4404/Gaun-Pengantin-ala-Millennial\">gaun</a> yang indah untuk pernikahannya.</p>",
+        "content4": "<h2>Gwyneth menggunakan gaun Giambattista Valli berwarma <i>plum</i> untuk pesta pertunangannya</h2><p>Saat pesta pertunangannya di bulan April, Gwyneth menggunakan gaun asimetris berwarna <i>plum</i> karya desainer Giambattista Valli <i>couture</i>. “Saya tidak akan pernah melupakan <a href=\"https://www.harpersbazaar.co.id/articles/read/6/2017/4180/Gaun-Pengantin-Bertema-Bohemian-ala-Tommy-Hilfiger\">gaun indah</a> ini.” Tulis <a href=\"https://www.harpersbazaar.co.id/articles/read/6/2015/1636/Gwyneth-Paltrow-Dan-Bisnis-Makanan-Sehat\">Gwyneth</a> di akun Instagramnya.</p><h2>Sahabat membantu Gwyneth merencanakan pernikahannya</h2><p>“Sangat lucu ketika mengingat tentang sahabat saya, mereka mengirim foto gaun kepada saya, mereka sangat senang mengenai hal ini, sama seperti saya, ini sangat mengesankan.” Ungkap Gwyneth kepada<i> People</i> di bulan Januari.</p><p>(Penulis: <a href=\"https://www.harpersbazaar.com/author/15033/erica-gonzales/\">Erica Gonzales</a> ; Artikel ini disadur dari <a href=\"https://www.harpersbazaar.com/celebrity/latest/a23517574/gwyneth-paltrow-wedding-dress/\">Bazaar US</a>; Alih bahasa: Denniel Saerang; Foto: Courtesy of Bazaar US)</p>"
+      }
+    ],
+    "magazine": [
+      {
+        "channel": "Cover Digital",
+        "subchannel": "",
+        "subtitle": "",
+        "title": "Transformasi Persona Pevita Pearce",
+        "lead": "Dalam hitungan belasan bulan Pevita berhasil mengubah pribadinya secara fisik dan mental demi sebuah kebaikan. Semuanya ia ceritakan kepada Erica Arifianda, bersamaan dengan penampilan terbarunya untuk pemotretan perdana Cover Digital Bazaar.Co.Id",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Astrid Bestari",
+        "author_img": "48.jpg",
+        "editor": "",
+        "source": "",
+        "source_img": "",
+        "partner": "",
+        "ads": 0,
+        "img": "xvideo.jpg.pagespeed.ic.D-BafTZ6Ji.jpg",
+        "img_author": "Vicky Tanzil",
+        "img_caption": "",
+        "related": [
+          {
+            "title": "Pangeran George Terlihat Bantu Petugas Pengiriman di Norfolk",
+            "img": "2017/07/24/4259631864.jpg"
+          }
+        ],
+        "tag": [
+          "pevita pierce",
+          "aktris indonesia",
+          "film indonesia"
+        ],
+        "content": "<p>Saya menunggu Pevita di salah satu kamar di Shangri-La Hotel, Jakarta. Sudah ada Ryan Ogilvy yang sedang menyiapkan alat-alat untuk merias Pevita. Tak berapa lama, bel kamar berbunyi, Pevita datang. “Hai! Apa kabar? Sudah lama tidak bertemu. <i>Wah</i>, ada kamu dan Ryan, kita sedang reuni New York!” sapa Pevita. Ya, pertemuan saya dan Pevita bukan yang pertama. Kami sebelumnya pernah terlibat kerja sama untuk sebuah brand kecantikan ternama saat New York Fashion Week tahun 2016, kebetulan bersama Ryan juga.</p><p><div class=\"photo-body -large\"><div class=\"photo-img\"><img src=\"./asset/images/dummy/xPevita_Pearce_2.jpg.pagespeed.ic.hSD9iw3CfM.jpg\"></div></div></p><p>Saya mengamati dirinya selama dirias, ada yang berubah dari Pev (begitu ia disapa)? Jelas ada, secara fisik tubuhnya yang mungil terlihat lebih <i>firm</i> dan <i>toned</i>. Pribadi? Sesaat masih ada Pev yang <i>easy going</i> dan senang diajak bercerita. Namun, ia tampak jauh lebih tenang, kalem. Berbeda dengan Pevita yang saya temui empat tahun lalu di New York, lantas apa yang membuatnya berubah?</p><p>Perbincangan kami pun dimulai, “<i>Gimana</i>? Kocak kan, saya empat tahun lalu memang lebih naif, saya merasa semua orang baik. Tapi seiring dengan karier berjalan, semua kekecewaan yang dialami, saya berhasil melewatkan perjalanan yang membuat saya <i>step back</i> dan mulai mencernanya satu per satu,” kata Pevita.</p><p>Ia melanjutkan cerita bagaimana dua tahun lalu merupakan titik terendah dalam hidupnya, “Kurang lebih selama satu tahun saya merasa kebingungan dengan segalanya. Saya merasa semua tidak memberikan hasil yang baik, bukan gagal. Dan ini lebih pada masalah personal, bukan pekerjaan. Hubungan dengan keadaan sekitar, keluarga, teman, dan romansa. Saya mulai menyalahkan hal lain, bukan orang. Dan saya juga tidak mau menyalahkan diri sendiri, selalu mencari alasan, hingga akhirnya saya sadar, saya lelah. Kenapa polanya seolah sama.”</p><p><div class=\"photo-body -large\"><div class=\"photo-img\"><img src=\"./asset/images/dummy/xPevita_Pearce_7.jpg.pagespeed.ic.X56cEa-K1U.jpg\"></div></div></p>",
+        "content2": "<p>Akhirnya, Pevita memilih untuk meditasi dan membatasi media sosial kecuali untuk urusan pekerjaan, “Dari situ saya mulai belajar, ketika saya merasa sedih, marah, bingung, saya harus mencernanya. Direnungkan, dipikirkan jalan keluarnya supaya tidak terjadi lagi. Harus berani berkata tidak untuk sebuah hal. <i>It’s okay to cut some people in your life</i>. Kamu harus mengontrol itu, jangan biarkan orang mengontrol kamu! <i>Because you are the main character of your life</i>!” ujarnya sambil tersenyum.</p><p><div class=\"photo-body -large\"><div class=\"photo-img\"><img src=\"./asset/images/dummy/xPevita_Pearce_x01.jpg.pagespeed.ic.xvNj4AiLFd.jpg\"></div></div></p><p>Bicara soal perubahan secara fisik, Pevita punya kisah panjang yang juga tidak kalah menarik. Tentu Anda sudah mendengar bahwa Pevita sedang terlibat sebuah project film di bawah rumah produksi Bumilangit Cinematic Universe, untuk memerankan salah satu karakter pahlawan super wanita bernama Sri Asih. Aktris berusia 27 tahun ini mencurahkan tenaga, waktu, dan pikiran untuk karakter Sri Asih selama tahun 2019 kemarin. “Namanya sebagai aktor, saat mendapat karakter yang bisa mengeksplorasi <i>skill</i> pasti akan merasa tertantang. Ketika saya dapat proyek Sri Asih, saya mau mendorong diri saya lebih dalam dan maksimal lagi dari proyek-proyek sebelumnya. Apalagi ini adalah film <i>action</i>, sesuatu yang saya ingin lakukan dari tahun-tahun sebelumnya,” kata Pevita tentang awal persiapannya untuk film <i>Sri Asih</i>.</p><p><div class=\"photo-body -large\"><div class=\"photo-img\"><img src=\"./asset/images/dummy/xPevita_Pearce_8.jpg.pagespeed.ic.-l5kTwk2QP.jpg\"></div></div></p><p>“Khususnya pada fisik, saya dulu memang suka berolahraga namun intensitasnya tidak sama seperti sekarang. Saya rasa saya perlu mengejar target lebih lama, oleh karena itu saya izin kepada rumah produksi agar diberi persiapan panjang untuk memberi hasil maksimal, supaya juga dapat meraih segalanya. Ketika bicara tentang koreografi baik itu menari atau bertarung, kuncinya hanya satu, yakni disiplin. Kemudian dilakukan terus menerus, sehingga menjadi refleks. <i>Nah</i>, refleks itu terjadi karena kita terbiasa. Transformasi refleks itu yang sekarang sedang saya bangun,” lanjutnya.</p><blockquote><span>”It’s okay to cut some people in your life. Because you are the main character of your life!”</span></blockquote><p>Ketika ditanya transformasi mentalnya, Pevita menjawab, “Perubahan mental itu masih ada sampai sekarang, saya mencoba untuk tidak pernah cepat puas. Kalau di awal-awal saya menangkap adanya keraguan di mata orang-orang. Mereka seolah memberi komentar: ‘Mana bisa Pevita akting film aksi, paling dia manja. Mana mau Pevita begini begitu’. Tapi ya, kalau belum kenal secara personal, <i>kan</i> Anda tidak tahu saya bagaimana. Memang ada proses saat saya tidak percaya dengan diri sendiri, pertama kali saya <i>training</i>, tidak sampai 5 menit saya sudah muntah-muntah. Sempat terbersit di pikiran, sepertinya mereka terlihat kecewa pada saya. ‘Aduh, bagaimana gue bisa jadi Sri Asih’. Saya sempat menangis, saya tertekan, dan banyak berbicara dengan diri sendiri. Kadang dengar <i>bad voice</i>, <i>good voice</i>, tapi saya coba fokus demi tujuan utama, yakni menyukseskan karakter Sri Asih dari segala aspek. Saya banyak berdiskusi dengan tim, menyatakan keluh kesah dan tidak memendamnya, mereka banyak membantu saya, dari sutradara, produser, sampai tim koreo yaitu Tim Uwais.”\n</p>",
+        "content3": "<p><div class=\"photo-body -full\"><div class=\"photo-img\"><img src=\"./asset/images/dummy/xvideo.jpg.pagespeed.ic.D-BafTZ6Ji.jpg\"></div></div></p><p>Dan hasil dari latihan intens Pevita bersama Tim Uwais tersebut sempat diuji untuk kampanye iklan sebuah uang elektronik, di sana Pev menunjukkan kelihaiannya dalam beraksi layaknya <i>superhero</i>. Pevita merasa beruntung mendapat tawaran membintangi <i>campaign</i> itu, sebab ia memiliki ketakutan akan proses yang akan ia jalani di lapangan untuk Sri Asih. “Saya berdiskusi dengan tim, kalau bisa melakukan adegan aksi sebelum pembuatan film <i>Sri Asih</i> akan lebih baik, agar saya dapat meraba-raba. Saya stres memikirkan beragam masalah di lapangan, nanti bagaimana dengan sesama <i>fighter</i>, bagaimana set di sana. Di film action, adegan patah meja dan lain-lain itu terbatas, hanya boleh dilakukan setidaknya tiga kali saja. Tekanan itu, memang harus saya hadapi, itulah film laga,” cerita Pevita.\n</p><p>Tapi siapa pun yang menyaksikan kampanye iklan itu terkagum melihat sosok Pevita yang ternyata dapat melakukan adegan pertarungan, termasuk saya.\n</p>\n<p>“<i>Hahaha</i> (tertawa), <i>campaign</i> itu juga keren karena eksekutor tim di baliknya, director-nya Mas Timo, koreografi oleh Tim Uwais. Tapi, setelah mengobrol dengan Mbak Upi (Sutradara film Sri Asih), adegan saya nanti akan lebih brutal,” ungkap Pevita lagi.</p>\n<p>Jadi transformasi di atas apakah membahagiakan seorang Pevita? “Awalnya saya menjalani proses ini demi perjalanan menuju Sri Asih. Tapi nyatanya saya sangat menikmati. Bisa dikatakan pencapaian saya di tahun 2019 kemarin adalah ‘<i>how the journey becoming Sri Asih changes lot of perspective in my life</i>’. Saya mendorong diri saya untuk disiplin! Saya berangkat latihan saja berat, karena lokasinya jauh dari rumah. Bangun lebih awal demi menghindari ganjil dan genap. Tapi hal itu justru lebih membangun saya, karena prosesnya, bukan hanya hasilnya. Dan ini akan menjadi sesuatu yang akan saya <i>maintain as a person</i>.”\n</p>",
+        "content4": "<p><div class=\"photo-body -large\"><div class=\"photo-img\"><img src=\"./asset/images/dummy/Pevita_Pearce_9.jpg\"></div></div></p><p>Dalam menyiapkan <i>cover digital</i> ini, tim Bazaar dan Pevita meluangkan waktu selama dua hari untuk mengelilingi kota Jakarta. Ia terlihat antusias saat pertama kali menginjakkan kaki di M Bloc Space, pertama kalinya pula Pevita melihat Hutan Plataran Kota di GBK. “Saya bangga sekali dengan Jakarta! Beberapa tempat banyak <i>side walk</i> agar <i>pedestrian</i> dapat berjalan dengan nyaman. GBK juga semakin punya banyak tempat umum dan hiburan, yang berujung mendukung gaya hidup sehat. Masyarakat dapat jalan-jalan, <i>jogging</i>, punya tempat untuk berkumpul dengan udara segar yang bukan dari AC. <i>Something different</i>, semoga setiap area dapat memiliki taman sendiri, diikuti penambahan fasilitas publik yang bagus. Memang konsekuensi pembangunan itu ada, jalanan jadi lebih macet, akan tetapi itu kan demi mengubah kebiasaan kita agar jadi lebih baik,” harap Pevita tentang kota Jakarta.</p><p>Pernyataan Pev tadi bukan sekadar ucapan belaka, ia terlihat menikmati perjalanan kami menggunakan transportasi umum dan berjalan kaki di sepanjang trotoar jalan protokol selama pemotretan. Karakter santai itu masih sangat terasa, saya pun jadi ingin tahu, apakah ketakutan terbesar bagi seorang Pevita? Apakah kehilangan? Ia menjawab dengan lugas, “Tidak, saya tidak takut kehilangan. Saya percaya semua ada waktunya dalam kehidupan. Justru yang saya takuti adalah kosong. Kosong <i>as a person</i>, kosong dalam perspektif, kosong di sekitar kamu, atau stagnan cenderung malah menurun. Kosong itu menakutkan!”</p>"
+      }
+    ],
+    "video": [
+      {
+        "channel": "Video",
+        "subchannel": "",
+        "subtitle": "",
+        "title": "Perjalanan Mikha Tambayong ke New York Bersama Michael Kors ",
+        "lead": "Dalam balutan busana kreasi Michael Kors di musim ini, Mikha Tambayong tampil stylish ketika mengunjungi New York dalam rangka New York Fashion Week pada pertengahan Februari silam.",
+        "dates": "26/11/2016, 08:31 WIB",
+        "author": "Tammy Tjenreng",
+        "author_img": "53.jpg",
+        "editor": "",
+        "source": "",
+        "source_img": "",
+        "partner": "",
+        "ads": 0,
+        "img": "",
+        "img_author": "Youtube",
+        "img_caption": "",
+        "video": "https://www.youtube.com/embed/Hco4YGaO-2Y",
+        "related": [
+          {
+            "title": "Perjalanan Luna Maya di New York City Bersama Tory Burch",
+            "img": "https://i3.ytimg.com/vi/4FgtD-VQNz0/maxresdefault.jpg"
+          },
+          {
+            "title": "Iqbaal Ramadhan in Conversation With Reza Rahadian",
+            "img": "https://i3.ytimg.com/vi/7713fhW4Ms8/maxresdefault.jpg"
+          }
+        ],
+        "tag": [
+          "Mikha Tambayong",
+          "expensive taste test",
+          "game"
+        ],
+        "content": "<p>Dalam balutan busana kreasi Michael Kors di musim ini, Mikha Tambayong tampil stylish ketika mengunjungi New York dalam rangka New York Fashion Week pada pertengahan Februari silam.</p><p><i>News flash</i>: Stephanie Poetri adalah seorang penyanyi muda yang sedang naik daun. <i>She's a pop star, </i>dan umurnya baru saja 19 tahun! <i>Like, EXCUSE ME, MA’AM</i>?! Ketika <i>Cosmo </i>masih seumurnya, <i>Cosmo</i> bahkan tak tahu bagaimana caranya merapikan kamar yang berantakan, sedangkan Stephanie sudah tahu apa yang ingin ia lakukan dengan talenta yang ia miliki. <i>SIGH! </i>Dan karena ia masih baru menapaki kariernya di dunia musik, <i>Cosmo </i>ingin membantunya mempersiapkan diri supaya ia, <i>ehem, </i>memiliki selera yang baik. Inilah yang membuat <i>Cosmo </i>memutuskan untuk bermain <i>Expensive Taste Test</i> bersama dengan Stephanie Poetri.</p><ul><li>Stephanie memulai permainan ini dengan berkata bahwa sebenarnya ia takut gagal.</li><li>mengaku bahwa ia \"tidak pandai menebak\" dan berpikir bahwa \"sepertinya ia tidak akan berhasil dalam permainan ini\".</li><li><i>Well, </i>namun yang terjadi justru kebalikannya, sampai-sampai ia sendiri kaget dengan hasilnya!</li></ul><p>Untuk tantangan pertama, <i>Cosmo </i>memintanya menebak mana <i>headphone </i>yang harganya lebih mahal karena, <i>ummm, </i>ia adalah seorang penyanyi dan sebuah <i>headphone </i>adalah hal yang wajib? Dan ya, tentu saja ia bisa menebak dengan benar. <i>We didn’t doubt you on that one, Steph.</i></p><p>Begitu juga ketika kami memintanya untuk menebak <i>fanny pack </i>mana yang lebih mahal karena kami tahu Stephanie adalah <i>le fanny pack QUEEN. A++++ for effort. </i>Stephanie bahkan tak membiarkan rekornya dikalahkan. Kami memintanya untuk menebak alis mata, <i>sheet mask, </i>sampai <i>mic </i>karaoke yang lebih mahal, <i>AND SHE NAILED IT. Stephanie Poetri *does* have the fancy eye!</i></p><p>P.S.: Ingin melihat video Stephanie Poetri lainnya? Cek di bawah ini:</p><div class=\"video-body\"><video src=\"https://assets.cosmopolitan.co.id/cosmo/Stephanie_Poetri.mp4\" controls=\"\"></video></div>"
+      }
+    ]
+  }
+}

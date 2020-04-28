@@ -1,0 +1,20 @@
+{{#if shop}}
+<div class="content-embed shop">
+	<div class="shop-wrap col-flex">
+		{{#each shop}}
+		<div class="shop-item">
+			<div class="shop-img">
+				<img src="{{img}}" alt="">
+			</div>
+			<div class="shop-side">
+				<div class="shop-cat">{{cat}}</div>
+				<div class="shop-brand">{{brand}}</div>
+				<div class="shop-site">{{site}}</div>
+				<div class="shop-price">{{price}}</div>
+				<a href="#" class="button button-primary">Shop Now</a>
+			</div>
+		</div>
+		{{/each}}
+	</div>
+</div>
+{{/if}}

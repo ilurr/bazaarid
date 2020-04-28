@@ -1,0 +1,48 @@
+<article class="content-fluid">
+	<div class="content-info col-flex">
+		<div class="content-author-img">
+			<img src="./asset/images/dummy/{{this.author_img}}" alt="{{this.author}}">
+		</div>
+		<div class="content-author">
+			<div class="content-author-name">by: <a href="indeks-author.html">{{this.author}}</a></div>
+			<div class="content-date"> / 23 September 2020</div>
+		</div>
+		<div class="content-social col-flex">
+			{{> social twitter=true facebook=true whatsapp=true linkedin=true line=true}}
+		</div>
+	</div>
+	<div class="content-photo-main">
+		<div class="photo-main">
+			<div class="photo-img">
+				<img src="./asset/images/dummy/{{this.img}}" alt="{{this.title}}">
+			</div>
+			<div class="photo-credit">{{this.img_author}}</div>
+		</div>
+	</div>
+</article>
+<article class="content-main">
+	<div class="content-body">
+		{{> read_poster}}
+
+		{{{this.content}}}
+
+		<!-- ads -->
+		{{> ads_belt}}
+
+		{{{this.content2}}}
+
+		{{{this.content3}}}
+
+		<!-- ads -->
+		{{> ads_belt}}
+
+		{{{this.content4}}}
+	</div>
+	<div class="content-tag">
+		{{> read_tagging tag=this.tag}}
+	</div>
+	<div class="content-social -bottom col-flex">
+		<div class="social-item"><span class="social-subtitle">Share:</span></div>
+		{{> social twitter=true facebook=true whatsapp=true linkedin=true line=true}}
+	</div>
+</article>

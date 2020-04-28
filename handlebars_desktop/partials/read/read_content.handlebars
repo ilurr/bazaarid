@@ -1,0 +1,78 @@
+<article class="content-with-ads col-flex">
+	<div class="col-left">
+		<div class="content-main{{#eq align compare='center'}} -center-aligned{{/eq}}">
+			<div class="content-info col-flex">
+				<div class="content-author-img">
+					<img src="./asset/images/dummy/{{this.author_img}}" alt="{{this.author}}">
+				</div>
+				<div class="content-author">
+					<div class="content-author-name">by: <a href="indeks-author.html">{{this.author}}</a></div>
+					<div class="content-date"> / 23 September 2020</div>
+				</div>
+				<div class="content-social col-flex">
+					{{> social twitter=true facebook=true whatsapp=true linkedin=true line=true}}
+				</div>
+			</div>
+			{{#if this.video}}
+			<div class="content-video-main">
+				<div class="video-main">
+					<iframe src="{{this.video}}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+				</div>
+			</div>
+			{{else}}
+			<div class="content-photo-main">
+				<div class="photo-main">
+					<div class="photo-img">
+						<img src="./asset/images/dummy/{{this.img}}" alt="{{this.title}}">
+					</div>
+					<div class="photo-credit">{{this.img_author}}</div>
+				</div>
+			</div>
+			{{/if}}
+			<div class="content-body">
+				{{{this.content}}}
+
+				{{#if this.content2}}
+				<!-- ads -->
+				{{> ads_belt}}
+
+				{{{this.content2}}}
+
+				<!-- shop -->
+				{{> read_shop shop=this.shop}}
+
+				{{#eq polling compare=true}}
+				<!-- poll -->
+				{{> read_polling}}
+				{{/eq}}
+				{{/if}}
+
+				{{#if this.content3}}
+				{{{this.content3}}}
+
+				<!-- ads -->
+				{{> ads_belt}}
+				{{/if}}
+
+				{{#if this.content4}}
+				<!-- related -->
+				<div class="content-related">
+					{{> read_related related=this.related}}
+				</div>
+				
+				{{{this.content4}}}
+				{{/if}}
+			</div>
+			<div class="content-tag">
+				{{> read_tagging tag=this.tag}}
+			</div>
+			<div class="content-social -bottom col-flex">
+				<div class="social-item"><span class="social-subtitle">Share:</span></div>
+				{{> social twitter=true facebook=true whatsapp=true linkedin=true line=true}}
+			</div>
+		</div>
+	</div>
+	<div class="col-right">
+		{{> ads_square}}
+	</div>
+</article>

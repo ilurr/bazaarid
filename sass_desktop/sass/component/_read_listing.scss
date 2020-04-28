@@ -1,0 +1,66 @@
+.content {
+	&-list {
+		position: relative;
+		&-item {
+			position: relative;
+			padding: 10px 0;
+			margin: 25px -10px;
+			@include max-responsive($screen-desktop-min) {
+				@include display-flex();
+				flex-wrap: wrap;
+			}
+		}
+		&-number {
+			padding: 0 10px;
+			@include font-pack($font_body, 2.632em, 700, 1, $color_theme);
+			text-shadow: 0 0 0 $color_theme, 0 0 0.01em transparent;
+			letter-spacing: 2px;
+			text-align: center;
+			@include max-responsive($screen-desktop-min) {
+				order: 0;
+				margin: 0 auto;
+			}
+			@include min-responsive($screen-desktop) {
+				float: right;
+				width: 50%;
+			}
+		}
+		&-img {
+			padding: 0 10px;
+			@include max-responsive($screen-desktop-min) {
+				order: 2;
+			}
+			@include min-responsive($screen-desktop) {
+				width: 50%;
+				float: left;
+			}
+		}
+		&-text {
+			padding: 0 10px;
+			@include max-responsive($screen-desktop-min) {
+				order: 1;
+			}
+			@include min-responsive($screen-desktop) {
+				width: 50%;
+				float: right;
+			}
+			h2 {
+				margin: 15px 0;
+				text-align: center;
+				// @include min-responsive($screen-desktop) {
+				// 	text-align: left;
+				// }
+			}
+		}
+		&-item {
+			&.-noimg {
+				.content-list-number,
+				.content-list-img,
+				.content-list-text {
+					float: unset;
+					width: 100%;
+				}
+			}
+		}
+	}
+}

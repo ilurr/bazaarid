@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+
+	<!-- navpanel -->
+	{{> navpanel}}
+
+	<!-- searchpanel -->
+	{{> searchpanel}}
+
+	<!-- header -->
+	{{> header menu_title='Beauty'}}
+		
+	<!-- root -->
+	<div class="root">
+		
+		<!-- section -->
+		{{> section title='Beauty'}}
+
+		<!-- ads top -->
+		{{> ads_top}}
+
+		<div class="col-fluid">
+			<div class="container clearfix">
+
+				<!-- latest -->
+				<section class="feed feed-section col-flex">
+					{{> latest_section_tipe2 index_start=1 index_end=5}}
+				</section>
+
+				{{> ads_square}}
+
+				<!-- latest -->
+				<section class="feed feed-section col-flex">
+					{{> latest_section_tipe2 index_start=1 index_end=5}}
+				</section>
+				
+				<a href="indeks-artikel.html" class="button-more"><span>More Articles</span></a>
+
+			</div>
+		</div>
+		
+		<!-- footer -->
+		{{> footer}}
+		
+	</div>
+
+	<!-- ads horizontal -->
+	{{> ads_horizontal}}
+
+	{{> js}}
+	
+</body>
+</html>

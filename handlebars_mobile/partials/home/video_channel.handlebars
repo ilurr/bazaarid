@@ -1,0 +1,16 @@
+{{#forEach video}}
+{{#unlessLteq index ../index_start}}
+{{#unlessGt index ../index_end}}
+<div class="feed-item">
+	<div class="feed-asset">
+		<a href="{{link}}" class="feed-link">
+			<div class="feed-asset-yt" style="background-image: url('{{img}}')"></div>
+		</a>
+	</div>
+	<div class="feed-box">
+		<h3 class="feed-title"><a href="{{link}}" class="feed-link">{{title}}</a></h3>
+	</div>
+</div>
+{{/unlessGt}}
+{{/unlessLteq}}
+{{/forEach}}

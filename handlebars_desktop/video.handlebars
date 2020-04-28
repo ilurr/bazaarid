@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{> head}}
+
+<body>
+
+	<!-- navpanel -->
+	{{> navpanel}}
+
+	<!-- searchpanel -->
+	{{> searchpanel}}
+
+	<!-- logo big -->
+	{{> logo_block}}
+
+	<!-- header -->
+	{{> header menu_title='Video'}}
+		
+	<!-- root -->
+	<div class="root">
+		
+		<!-- section -->
+		{{> section title='Video'}}
+
+		<!-- ads top -->
+		{{> ads_top}}
+
+		<div class="col-fluid">
+			<div class="container clearfix">
+
+				<!-- haeadline video -->
+				<section class="feed feed-section-hl feed-video-hl col-flex">
+					{{> headline_video index_start=0 index_end=3}}
+				</section>
+				
+				<!-- latest -->
+				<section class="feed feed-video-list col-flex">
+					{{> latest_video index_start=4 index_end=10}}
+				</section>
+
+				<a href="indeks-artikel.html" class="button-more"><span>More Articles</span></a>
+
+			</div>
+		</div>
+		
+		<!-- footer -->
+		{{> footer}}
+		
+	</div>
+
+	<!-- ads horizontal -->
+	{{> ads_horizontal}}
+
+	{{> js}}
+	
+</body>
+</html>

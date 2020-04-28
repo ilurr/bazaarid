@@ -1,0 +1,41 @@
+<footer class="footer">
+	<div class="container">
+		<div class="footer-row col-flex">
+			<div class="footer-col">
+				<div class="footer-logo">
+					<a href="index.html">
+						<img src="./asset/images/logo-bazaar-small.png" alt="Harper's BAZAAR Indonesia">
+					</a>
+				</div>
+				<div class="footer-social social -footer">
+					{{> social facebook=true twitter=true instagram=true youtube=true}}
+				</div>
+			</div>
+			<div class="footer-col">
+				<nav class="footer-menu">
+					<ul class="footer-menu-wrap col-flex">
+						{{#each menu_footer}}
+						<li class="footer-menu-item"><a href="{{link}}" class="footer-menu-link">{{title}}</a></li>
+						{{/each}}
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="footer-row col-flex">
+			<div class="footer-col">
+				<div class="footer-copyright">
+					<p>A PART OF MRA MEDIA</p>
+					<p>Harper's BAZAAR Indonesia participates in various affiliate marketing programs, which means we may get paid commissions on editorially chosen products purchased through our links to retailer sites.</p>
+					<p>©2020 Harper's BAZAAR Indonesia. All Rights Reserved.</p>
+				</div>
+			</div>
+			<div class="footer-col">
+				<div class="footer-network">
+					<div class="footer-network-wrap col-flex">
+						<div class="footer-network-logo -mra"><a href="#" target="_blank"><img src="./asset/images/logo-mra-media.png" alt="MRA MEDIA"></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>

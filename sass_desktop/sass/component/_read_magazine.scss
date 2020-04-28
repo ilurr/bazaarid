@@ -1,0 +1,51 @@
+// .magazine {
+// 	&-body {
+// 		@extend .content-body;
+// 	}
+// }
+
+.container-magazine {
+	.ads-belt,
+	.content-fluid {
+		margin-left: calc(-50vw + 50%);
+		margin-right: calc(-50vw + 50%);
+	}
+	.content-header {
+		padding: 0 25px;
+		text-align: center;
+		margin-left: calc(-50vw + 50%);
+		margin-right: calc(-50vw + 50%);
+		@include min-responsive($screen-desktop) {
+			margin-left: calc(-35vw + 50%);
+			margin-right: calc(-35vw + 50%);
+		}
+	}
+	.content-info {
+		justify-content: center;
+		.content-social {
+			@include min-responsive($screen-tablet) {
+				margin-top: 0;
+				margin-left: 20px;
+			}
+		}
+	}
+	.content-author {
+		flex-grow: 0;
+	}
+	blockquote {
+		margin-top: 1.25em;
+		margin-bottom: 1.25em;
+		padding: 1.579em 0;
+		@include min-responsive($screen-tablet) {
+			padding: 1.579em;
+		}
+	}
+	.photo-body {
+		&.-large {
+			@include min-responsive($screen-desktop) {
+				margin-left: -55px;
+				margin-right: -55px;
+			}
+		}
+	}
+}

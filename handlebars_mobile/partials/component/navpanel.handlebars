@@ -1,0 +1,22 @@
+<nav class="nav -panel">
+	<a href="#" class="nav-button -menu js-menu" title="Menu">
+		<span class="icon icon-bar">
+			<i></i>
+		</span>
+	</a>
+	<ul class="nav-wrap">
+		{{#each menu}}
+		<li class="nav-item">
+			<a href="{{link}}" class="nav-link{{#eq title compare=../menu_title}} -active{{/eq}}">{{title}}</a>
+			{{#if submenu}}
+			<a href="#" class="nav-arrow js-arrow"><span></span></a>
+			<ul class="nav-submenu">
+				{{#each submenu}}
+				<li class="nav-subitem"><a href="{{link}}" class="nav-link{{#eq title compare=../menu_title}} -active{{/eq}} -sub">{{title}}</a></li>
+				{{/each}}
+			</ul>
+			{{/if}}
+		</li>
+		{{/each}}
+	</ul>
+</nav>
