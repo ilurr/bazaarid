@@ -2,7 +2,6 @@
 	position: relative;
 	padding: 0;
 	z-index: 9;
-	background: $color_theme2;
 	//border-top: 1px solid #ccc;
 	//border-bottom: 1px solid #ccc;
 	//box-shadow: 0 2px 5px rgba(0,0,0,.1);
@@ -15,14 +14,21 @@
 		height: 100%;
 		position: relative;
 		z-index: 2;
-		background: $color_theme2;
 	}
 	&-wrap {
 		height: 100%;
 		position: relative;
+		background: $color_theme2;
 		//flex-wrap: nowrap;
 		align-items: center;
 		justify-content: space-between;
+
+		// override
+		width: 100%;
+		@include min-responsive($screen-lg-desktop - 50px) {
+			width: $screen-lg-desktop - 50px;
+			padding: 0 10px;
+		}
 	}
 	&-menu {
 		padding: 0 0 0 20px;
@@ -50,6 +56,7 @@
 		top: 0;
 		left: 0;
 		z-index: 10;
+		background: $color_theme2;
 		//box-shadow: 0 2px 5px rgba(0,0,0,.1);
 	}
 }

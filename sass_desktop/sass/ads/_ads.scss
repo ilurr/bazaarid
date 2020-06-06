@@ -66,19 +66,20 @@
 		padding: 4px 8px;
 		@include font-pack(false, 12px, false, 1, false);
 	}
-	&-stick {
+	&-skin {
 		position: fixed;
-		top: 75px;
+		// top: 75px;
+		top: 0;
 		z-index: 10;
 		width: 100%;
-		@include transition(top .2s ease);
+		// @include transition(top .2s ease);
 		&-wrap {
 			position: relative;
 			width: 100%;
 		}
-		&-fluid {
+		&-item {
 			position: absolute;
-			width: calc((100% - 1100px)/2);
+			width: calc((100% - 1080px)/2);
 			display: block;
 			top: 0;
 			img {
@@ -92,15 +93,17 @@
 			}
 		}
 		&.-sticky {
-            top: 75px;
+			top: 60px;
+			//@include transform(translateY(60px));
 		}
-		&-left {
-			right: 0;
+		&-img {
 			position: absolute;
-		}
-		&-right {
-			left: 0;
-			position: absolute;
+			&.-left {
+				right: 0;
+			}
+			&.-right {
+				left: 0;
+			}
 		}
 	}
 }

@@ -8,14 +8,17 @@ $(document).ready(function() {
 			var scrollpos = $(window).scrollTop();
 			if(scrollpos > headerTop) {
 				$(".header").addClass("-fixed");
+				$(".ads-skin").addClass("-sticky");
 				$(".header-holder").css("padding-bottom",headerHeight+"px");
 			} else {
 				$(".header").removeClass("-fixed");
+				$(".ads-skin").removeClass("-sticky");
 				$(".header-holder").removeAttr("style");
 			}
 		});			
 	} else {
 		$(".header").addClass("-fixed");
+		$(".ads-skin").addClass("-sticky");
 		$(".header-holder").css("padding-bottom",headerHeight+"px");
 	}
 		

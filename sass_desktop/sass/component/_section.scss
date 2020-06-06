@@ -3,8 +3,8 @@
 	&-block {
 		position: relative;
 		height: 150px;
-		background: #000;
-		margin: 0 0 20px;
+		//background: #000;
+		margin-top: -20px;
 		@include min-responsive($screen-tablet) {
 			height: 30vh;
 		}
@@ -38,8 +38,8 @@
 		padding: 5px 15px;
 		background: #1D1D1D;
 		@include font-pack(false, 3.75rem, false, 1, #fff);
-		@include min-responsive($screen-desktop) {
-			left: 25px;
-		}
+		// @include min-responsive($screen-desktop) {
+		// 	left: 25px;
+		// }
 	}
 }
