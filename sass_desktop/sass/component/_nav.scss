@@ -29,7 +29,7 @@
 		position: relative;
 		text-transform: uppercase;
 		padding: 10px 12px;
-		@include font-pack($font_secondary, 18px, false, false, #000);
+		@include font-pack($font_secondary, 16px, false, false, #000);
 		&.-active {
 			//color: #000;
 			&:after {

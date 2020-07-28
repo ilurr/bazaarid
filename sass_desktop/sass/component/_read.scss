@@ -105,13 +105,13 @@
 	}
 	&-body {
 		padding: 0 0 20px;
-		@include font-pack($font_body, 19px, 400, 1.6, #242424);
+		@include font-pack($font_article, 19px, 400, 1.6, #242424);
 		h2 {
-			@include font-pack($font_body, 1.474em, 600, false, false);
+			@include font-pack($font_body, 1.474em, 700, false, false);
 			margin: 1.5em 0 1em;
 		}
 		h3 {
-			@include font-pack($font_body, 1.263em, 600, false, false);
+			@include font-pack($font_body, 1.263em, 700, false, false);
 			margin: 1.5em 0 1em;
 		}
 		p {
@@ -127,7 +127,7 @@
 		}
 		b,
 		strong {
-			font-weight: 600;
+			font-weight: 700;
 		}
 		ol, ul {
 			margin: 1.5em 0 1em;
@@ -164,7 +164,7 @@
 				&:before {
 					counter-increment: section;
 					content: counters(section, ".")".  ";
-					@include font-pack($font_body, false, 600, false, #ff4c49);
+					@include font-pack($font_body, false, 700, false, $color_theme);
 				}
 			}
 		}
